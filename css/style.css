@@ -67,3 +67,12 @@ footer.page-footer {
     -webkit-transform: translateY(-8%);
             transform: translateY(-8%);
   }
+}
+
+  #linear_a {
+    opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+  #linear_a img {
+    left: 5%;
+  }
