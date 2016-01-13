@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Desarrolla tu aplicación móvil en HTML5</title>
+    <meta name="description" content="Fricolab is a multidisciplinary project led by David A. Lareo. We believe that open technology is one of the main tools for promoting social change and help to build a fairer and more beautiful world.
+">
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="canonical" href="https://fricolab.github.io//desarrolla-tu-aplicacion-movil-en-html5/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="brand-logo"><object id="front-page-logo" class="responsive-img" width="120px" type="image/png" data="/images/logo_fricolaB.png">Your browser does not support SVG.</object></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+</header>
+
+
+        <div class="post container">
+
+  <header class="post-header">
+    <h1 class="post-title">Desarrolla tu aplicación móvil en HTML5</h1>
+    <p class="post-meta">Nov 7, 2014 • david</p>
+  </header>
+
+  <article class="post-content">
+    <p>Desarrollar apps no es una tarea sencilla. Sin embargo existen algunas herramientas que te permitirán dar el salto a las plataformas móviles sin necesidad de aprender los diferentes lenguajes de programación nativos de cada una de ellas: Android, iOS, Windows Phone, etc. Simplemente precisaremos conocer HTML5, el lenguaje standard en la programación web, y utilizar algunos framewoks de programación que a continuación presentaremos.</p>
+
+<p>Para un freelance disponer de las herramientas adecuadas es fundamental para poder optimizar al máximo el tiempo dedicado a cada proyecto, pudiendo de esta manera ofrecer productos y servicios adaptados a las necesidades de los clientes por un precio ajustado. Si además dichas herramientas son flexibles y adaptables, como es el caso del software open source, y disponen una amplia documentación y comunidad de desarrollo, como las que aquí vamos a presentar, podremos además ofrecer soluciones flexibles y abiertas.</p>
+
+<h2 id="aplicaciones-mviles-en-html5">Aplicaciones móviles en HTML5</h2>
+
+<p>Phonegap es una distribución de Apache Cordova, un proyecto de código abierto totalmente gratuito mantenido y mejorado por una amplia comunidad de desarrolladores con el apoyo de la Apache Foundation y Adobe. PhoneGap maneja una interfaz de programación (API) que nos permite lanzar funciones del dispositivo como la cámara, la agenda, los dispositivos de red y muchas otras. Para este fin utiliza lenguaje Javascript, por lo que podremos integrar funciones nativos en el teléfono sin necesidad de conocer el lenguaje específico de cada plataforma. Phonegap nos proporciona una serie de plugins para cada una de las funciones principales que deseamos incorporar en nuestra aplicación, constantemente mejorados y mantenidos por una amplia comunidad de desarrolladores y totalmente gratuitos.</p>
+
+<p>Además otra característica es la posibilidad de integrar distintos frameworks CSS para gestionar el diseño de nuestra aplicación, haciéndola totalmente adaptable a los distintos dispositivos, modificando el layout en función del tamaño y la orientación de la pantalla. Nuestro preferido, por su sencillez y su flexibilidad es Twitter Bootstrap. Además de Bootstrap será posible integrar otros muchos frameworks como Jquery Mobile, Sencha Touch, Zurb Foundation, etc.</p>
+
+<h2 id="crea-tu-app-en-tres-sencillos-pasos">Crea tu app en tres sencillos pasos</h2>
+
+<p>Phonegap dispone de una amplia documentación a tu alcance, que puedes consultar en http://docs.phonegap.com. Para crear tu app simplemente deberás seguir tres sencillos pasos:</p>
+
+<p>1) <strong>Instala Phonegap</strong>:</p>
+
+<p>Asegúrate de tener instalado NodeJS y ejecuta (en Linux y Mac como superusuario) npm install -g phonegap en tu línea de comandos.</p>
+
+<p>2) <strong>Crea tu app</strong>:</p>
+
+<p>Ve al directorio donde quieres mantener el código fuente de tu app y ejecuta cordova create hello com.example.hello HelloWorld. Una aplicación llamada HelloWorld habrá sido creada en el directorio hello.</p>
+
+<p>3) <strong>Diseña tu contenido en HTML5</strong>:</p>
+
+<p>En el subdirectorio www de tu recién creada app encontrarás un archivo index.html y unas subcarpetas CSS y JS con las librerías necesarias para ejecutar tu aplicación. Modifica dicho archivo a tu gusto y crea tu aplicación como si de una página web se tratase.</p>
+
+<p>Exporta tu app a las distintas plataformas: Android, iOS, Windows Phone…</p>
+
+<p>Una vez creada tu aplicación deberás seguir los siguientes pasos para poder adaptar tu contenido a las distintas plataformas móviles.</p>
+
+<p>1) <strong>Añade las plataformas</strong>:</p>
+
+<p>Desde el directorio de tu app ejecuta cordova platform add android, donde android es el nombre de la plataforma, que podrás sustituir por ios, firefoxos, wp7, etc.</p>
+
+<p>2) <strong>Genera el código para cada plataforma</strong>:</p>
+
+<p>El comando cordova build creará un subdirectorio en platform para cada una de las plataformas con el código específico.</p>
+
+<p>Puedes gestionar tu flujo de trabajo de mil formas diferentes. Existen infinidad de complementos ya diseñados para proporcionar a tu aplicación funciones avanzadas. Puedes consultar algunos disponibles en la documentación oficial del proyecto.</p>
+
+  </article>
+
+</div>
+
+
+      <footer class="page-footer teal lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="grey-text text-darken-4">About Us</h5>
+          <p class="grey-text text-darken-1">Fricolab is a multidisciplinary project led by David A. Lareo. We believe that open technology is one of the main tools for promoting social change and help to build a fairer and more beautiful world. However we are aware that for most of you clicking on a button is just enough...</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="grey-text text-darken-4">Resources</h5>
+          <ul>
+            <li><a class="grey-text text-darken-1" href="/blog">Blog</a></li>
+            <li><a class="grey-text text-darken-1" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-darken-1" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-darken-1" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="grey-text text-darken-4">Connect</h5>
+          <ul>
+            <li><a href="https://twitter.com/fricolab"><img src="/images/twitter.svg"></a></li>
+            <li><a href="https://facebook.com/fricolab"><img src="/images/facebook-box.svg"></a></li>
+            <li><a href="https://github.com/fricolab"><img src="/images/github-circle.svg"</a></li>
+            <li><a class="grey-text text-darken-1" href="mailto:info@fricolab.com"><i class="material-icons">email</i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made with <a class="white-text" href="http://materializecss.com">Materialize</a> and <a class="white-text" href="https://jekyllrb.com/">Jekyll</a>
+      </div>
+    </div>
+  </footer>
+
+      
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/js/materialize.js"></script>
+<script type="text/javascript" src="/js/init.js"></script>
+<script type="text/javascript" src="/js/mail.js"></script>
+
+  </body>
+
+</html>
