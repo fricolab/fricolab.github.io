@@ -11,9 +11,9 @@ categories:
 ---
 Desde la versión 3.0 [WordPress](https://wordpress.org/ "Wordpress"), **el gestor de contenidos más popular en la web** (alcanzando casi el 50% de todos los sitios web publicados [http://trends.builtwith.com/cms](http://trends.builtwith.com/cms "CMS Technologies Web Usage Statistics")), nos permite configurar una **red de blogs**, una funcionalidad anteriormente disponible en [WordPress Multisite](https://mu.wordpress.org/ "Multisite Wordrpess"). Esta funcionalidad tiene especial interés si queremos construir **una comunidad de sitios web similar a WordPress.com**, asignando a cada uno de los sitios una URL personalizada, pero compartiendo todos ellos un mismo dominio. Imagina una **web corporativa** en la que queremos incluir distintos blogs, de temáticas diferentes, o de autores diferentes, identificados en la **URL con subdominios diferentes** pero todos ellos compartiendo el mismo dominio, algo así como:
 
-'tecnología.dominio.com
-emprendimiento.dominio.com
-formacion.dominio.com`
+    tecnología.dominio.com
+    emprendimiento.dominio.com
+    formacion.dominio.com`
 
 Pues bien, para ello tendríamos que **hacer que cada subdominio apuntase a un blog diferente**, todos ellos relacionados y formando una única red que se podría administrar conjuntamente, especificando los plugins disponibles, los temas y otros elementos comunes.
 
