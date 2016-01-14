@@ -61,9 +61,3 @@ footer.page-footer {
     font-size: 1.64rem;
   }
 }
-
-@media only screen and (max-width: 992px) {
-  nav .brand-logo {
-    -webkit-transform: translateY(-8%);
-            transform: translateY(-8%);
-  }
