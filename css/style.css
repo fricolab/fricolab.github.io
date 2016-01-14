@@ -61,3 +61,11 @@ footer.page-footer {
     font-size: 1.64rem;
   }
 }
+
+  #linear_a {
+    opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+  #linear_a img {
+    left: 5%;
+  }
