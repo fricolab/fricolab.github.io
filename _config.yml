@@ -4,7 +4,8 @@ email: info@fricolab.com
 description: > # this means to ignore newlines until "baseurl:"
   Fricolab is a multidisciplinary project led by David A. Lareo. We believe that open technology is one of the main tools for promoting social change and help to build a fairer and more beautiful world.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://fricolab.github.io/" # the base hostname & protocol for your site
+url: "https://fricolab.github.io/" # the base hostname & protocol for 
+your site
 twitter_username: fricolab
 github_username:  fricolab
 
