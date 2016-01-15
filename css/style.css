@@ -69,3 +69,14 @@ footer.page-footer {
   #linear_a img {
     left: 5%;
   }
+  .divider {
+    margin-bottom: 20px;
+  }
+
+  .about {
+    transform: translateY(20%);;
+  }
+
+  .card-panel {
+    padding: 20px !important;
+  }
