@@ -72,12 +72,12 @@ footer.page-footer {
   .divider {
     margin-bottom: 20px;
   }
-
+@media only screen and (min-width: 600px) {
   .about {
-    transform: translateY(20%);;
+    transform: translateY(20%);
   }
+}
 
   .card-panel {
     padding: 20px !important;
-    margin-bottom: 20px;
   }
