@@ -1,10 +1,16 @@
 <head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="Mw_RsimrQbPH6AqapBVpWlJxCpxeVlVS3ti8HRrIPds" />
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fricolab.com/" />
+    <meta property="og:title" content="FricolaB | People Oriented OSS" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="http://fricolab.github.io/images/logo_fricolaB.png" />
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
