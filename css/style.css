@@ -77,3 +77,6 @@ footer.page-footer {
     transform: translateY(20%);
   }
 }
+.container .mix{
+  display: none;
+}
