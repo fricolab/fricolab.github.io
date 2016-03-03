@@ -84,3 +84,13 @@ footer.page-footer {
 .card {
   height: 300px;
 }
+
+div.card-image {
+  height: 220px;
+}
+
+#Container div.card-image img {
+  padding: 25px;
+  top: 30% !important;
+  max-height: 80%;
+}

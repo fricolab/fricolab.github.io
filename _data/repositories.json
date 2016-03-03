@@ -2,6 +2,7 @@
 [
   {
     "name": "Wekan",
+    "logo": "https://wekan.io/static/wekan-logo.png",
     "tags": [
       "agile"
     ],
@@ -18,6 +19,7 @@
   },
   {
     "name": "Taiga",
+    "logo": "https://taiga.io/media/support/attachments/article-22/icon-taiga-color.svg",
     "tags": [
       "agile"
     ],
@@ -34,6 +36,7 @@
   },
   {
     "name": "Kanboard",
+    "logo": "https://pbs.twimg.com/profile_images/467625861886136320/YCKwOCXw.png",
     "tags": [
       "agile"
     ],
@@ -50,6 +53,7 @@
   },
   {
     "name": "Taskboard",
+    "logo": "https://taskboard.matthewross.me/images/board.png",
     "tags": [
       "agile"
     ],
