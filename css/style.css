@@ -80,3 +80,7 @@ footer.page-footer {
 #Container .mix{
   display: none;
 }
+
+.card {
+  height: 300px;
+}
