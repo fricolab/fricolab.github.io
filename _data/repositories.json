@@ -1,0 +1,119 @@
+
+[
+  {
+    "name": "Project1",
+    "tags": [
+      "agile",
+      "cms"
+    ],
+    "links": [{
+      "url": "http://yourblog.com/project/Project1",
+      "title": "read more",
+      "class": "icon-book"
+    }, {
+      "url": "https://github.com/user/Project1",
+      "title": "github"
+    }],
+    "forks_count": 28,
+    "stars_count": 239,
+    "icon_class": "mdi-file-cloud-done",
+    "description": "A description of Project1. This is actually a really really really really long description. If it's more than three rows of text, it should get cut off and an ellipsis will."
+  },
+  {
+    "name": "Project2",
+    "tags": [
+      "agile"
+    ],
+    "links": [{
+      "url": "http://example.com",
+      "title": "site",
+      "class": "mdi-action-home"
+    } ,{
+      "url": "https://github.com/user/Project2",
+      "title": "github"
+    }],
+    "forks_count": 2,
+    "stars_count": 19,
+    "icon_class": "mdi-hardware-security",
+    "description": "A description of Project2"
+  },
+  {
+    "name": "Project3",
+    "tags": [
+      "cms"
+    ],
+    "links": [{
+      "url": "https://github.com/user/Project3",
+      "title": "github"
+    }],
+    "forks_count": 3,
+    "stars_count": 11,
+    "icon_class": "mdi-image-camera",
+    "description": "A description of Project3"
+  },
+  {
+    "name": "Project4",
+    "tags": [
+      "chat"
+    ],
+    "links": [{
+      "url": "http://yourblog.com/project/Project4",
+      "title": "read more",
+      "class": "icon-book"
+    }, {
+      "url": "https://github.com/user/Project4",
+      "title": "github"
+    }],
+    "forks_count": 28,
+    "stars_count": 239,
+    "icon_class": "mdi-maps-location-history",
+    "description": "A description of Project4"
+  },
+  {
+    "name": "Project5",
+    "tags": [
+      "agile"
+    ],
+    "links": [{
+      "url": "http://yourblog.com/project/Project5",
+      "title": "read more",
+      "class": "icon-book"
+    }, {
+      "url": "https://github.com/user/Project5",
+      "title": "github"
+    }],
+    "forks_count": 2,
+    "stars_count": 19,
+    "icon_class": "mdi-maps-local-cafe",
+    "description": "A description of Project5"
+  },
+  {
+    "name": "Project6",
+    "tags": [
+      "cms"
+    ],
+    "links": [{
+      "url": "https://github.com/user/Project6",
+      "title": "github"
+    }],
+    "forks_count": 3,
+    "stars_count": 11,
+    "description": "A description of Project6"
+  },
+  {
+    "name": "Project7",
+    "tags": [
+      "agile",
+      "cms",
+      "chat"
+    ],
+    "links": [{
+      "url": "https://github.com/user/Project7",
+      "title": "github"
+    }],
+    "forks_count": 0,
+    "stars_count": 239,
+    "icon_url": "static/heart_icon.png",
+    "description": "A description of Project7"
+  }
+]

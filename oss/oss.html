@@ -11,59 +11,29 @@ permalink: /oss/
     <!-- Dropdown Structure -->
     <ul id='dropdown2' class='dropdown-content'>
       <li><a class="filter" data-filter="all">All</a></li>
-      <li><a class="filter" data-filter=".category-1">Agile</a></li>
       <li class="divider"></li>
-      <li><a class="filter" data-filter=".category-2">E-commerce</a></li>
+      <li><a class="filter" data-filter=".agile">Agile</a></li>
+      <li><a class="filter" data-filter=".cms">Cms</a></li>
+      <li><a class="filter" data-filter=".chat">Chat</a></li>
     </ul>
 
     <a class="btn sort waves-effect waves-light waves-input-wrapper" data-sort="myorder:asc">Asc</a>
     <a class="btn sort waves-effect waves-light waves-input-wrapper" data-sort="myorder:desc">Desc</a>
   </div>
   <div id="Container">
+
     <div class="row">
-    <div class="card col s12 m6 l3 mix category-1" data-myorder="1">
+    {% for repo in site.data.repositories %}
+    <div class="card col s12 m6 l3 mix {{ repo.tags[0] }}" data-myorder="1">
       <div class="card-content">
-        <span class="card-title">Card Title</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+        <span class="card-title">{{ repo.name }}</span>
+        <p>{{ repo.description }}</p>
         <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
+          <a href="{{ repo.links[0].url }}">{{ repo.links[0].title }}</a>
+          <a href="{{ repo.links[1].url }}">{{ repo.links[1].title }}</a>
         </div>
       </div>
     </div>
-    <div class="card col s12 m6 l3 mix category-1" data-myorder="1">
-      <div class="card-content">
-        <span class="card-title">Card Title</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-    <div class="card col s12 m6 l3 mix category-1" data-myorder="1">
-      <div class="card-content">
-        <span class="card-title">Card Title</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-    <div class="card col s12 m6 l3 mix category-1" data-myorder="1">
-      <div class="card-content">
-        <span class="card-title">Card Title</span>
-        <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
     </div>
   </div>
