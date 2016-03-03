@@ -1,0 +1,39 @@
+---
+layout: es_page
+title: Catálogo OSS
+permalink: /es/oss/
+---
+
+  <div id="controls">
+    <!-- Dropdown Trigger -->
+    <a class='dropdown-button btn' href='#' data-activates='dropdown2'>Show me only</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown2' class='dropdown-content'>
+      <li><a class="filter" data-filter="all">All</a></li>
+      <li class="divider"></li>
+      <li><a class="filter" data-filter=".agile">Agile</a></li>
+      <li><a class="filter" data-filter=".cms">Cms</a></li>
+      <li><a class="filter" data-filter=".chat">Chat</a></li>
+    </ul>
+
+    <a class="btn sort waves-effect waves-light waves-input-wrapper" data-sort="myorder:asc">Asc</a>
+    <a class="btn sort waves-effect waves-light waves-input-wrapper" data-sort="myorder:desc">Desc</a>
+  </div>
+  <div id="Container">
+
+    <div class="row">
+    {% for repo in site.data.repositories %}
+    <div class="card col s12 m6 l3 mix {{ repo.tags[0] }}" data-myorder="{{ repo.stars_count }}">
+      <div class="card-content">
+        <span class="card-title">{{ repo.name }}</span>
+        <p>{{ repo.description }}</p>
+        <div class="card-action">
+          <a href="{{ repo.links[0].url }}">{{ repo.links[0].title }}</a>
+          <a href="{{ repo.links[1].url }}">{{ repo.links[1].title }}</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+  </div>
