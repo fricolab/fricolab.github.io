@@ -24,7 +24,7 @@ permalink: /oss/
 
     <div class="row">
     {% for repo in site.data.repositories %}
-    <div class="card col s12 m6 l3 mix {{ repo.tags[0] }}" data-myorder="1">
+    <div class="card col s12 m6 l3 mix {{ repo.tags[0] }}" data-myorder="{{ repo.stars_count }}">
       <div class="card-content">
         <span class="card-title">{{ repo.name }}</span>
         <p>{{ repo.description }}</p>
