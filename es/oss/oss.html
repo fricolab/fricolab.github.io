@@ -23,17 +23,23 @@ permalink: /es/oss/
   <div id="Container">
 
     <div class="row">
-    {% for repo in site.data.repositories %}
-    <div class="card col s12 m6 l3 mix {{ repo.tags[0] }}" data-myorder="{{ repo.stars_count }}">
-      <div class="card-content">
-        <span class="card-title"><a href="{{ repo.links[0].url }}">{{ repo.name }}</a></span>
-        <p>{{ repo.description }}</p>
-        <div class="card-action">
-          <a href="{{ repo.links[0].url }}">{{ repo.links[0].title }}</a>
-          <a href="{{ repo.links[1].url }}">{{ repo.links[1].title }}</a>
+      {% for repo in site.data.repositories %}
+      <div class="col s6 m4 l3 mix {{ repo.tags[0] }}" data-myorder="{{ repo.stars_count }}">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="/images/lamatraka.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p><a href="{{ repo.links[0].url }}">{{ repo.links[0].title }}</a></p>
+            <p><a href="{{ repo.links[1].url }}">{{ repo.links[1].title }}</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">{{ repo.name }}<i class="material-icons right">close</i></span>
+            <p>{{ repo.description }}</p>
+          </div>
         </div>
       </div>
-    </div>
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
