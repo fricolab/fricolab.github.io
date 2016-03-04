@@ -83,23 +83,6 @@
     "description": "Project management web application with scrum in mind! Built on top of Django and AngularJS"
   },
   {
-    "name": "Kanboard",
-    "logo": "https://pbs.twimg.com/profile_images/467625861886136320/YCKwOCXw.png",
-    "tags": [
-      "agile"
-    ],
-    "links": [{
-      "url": "http://kanboard.net/",
-      "title": "Kanboard"
-    } ,{
-      "url": "https://github.com/fguillot/kanboard",
-      "title": "Github"
-      }],
-    "forks_count": 479,
-    "stars_count": 1535,
-    "description": "Kanban project management software"
-  },
-  {
     "name": "Rocket.chat",
     "logo": "https://pbs.twimg.com/profile_images/633362741735096320/tCSKtjoq.png",
     "tags": [
