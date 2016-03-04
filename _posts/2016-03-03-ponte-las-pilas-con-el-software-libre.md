@@ -17,6 +17,8 @@ En [FricolaB](https://fricolab.com) siempre hemos querido contribuir a la democr
 
 Hoy presentamos una herramienta que pretende ser nuestra humilde contribución a esta tendencia de democratización del software libre, nuestro **Catálogo OSS**. Se trata de una recopilación de proyectos de software en las principales categorías: gestión de proyectos, comercio electrónico, diseño de sitios web estáticos, soluciones de e-learning, gestión de clientes...
 
-Nuestro **Catálogo OSS** te ayudará a identificar cual es el software libre que más se acomoda a las necesidades de tu proyecto. Además de filtrar el software por categoría también podrás ordenarlos por popularidad, de manera que aquellos proyectos con más seguidores y colaboradores en [Github](https://github.com) aparecerán en primer lugar.
+Nuestro [Catálogo OSS](http://fricolab.github.io/es/oss/) te ayudará a 
+identificar cual es el software 
+libre que más se acomoda a las necesidades de tu proyecto. Además de filtrar el software por categoría también podrás ordenarlos por popularidad, de manera que aquellos proyectos con más seguidores y colaboradores en [Github](https://github.com) aparecerán en primer lugar.
 
 Ponte las pilas con el software libre y libérate de las limitaciones del software privativo, así como de sus licencias restrictivas. Un proyecto original e innovador precisa de herramientas a medida. En [FricolaB](https://fricolab.com) te ayudamos a personalizar cualquiera de las aplicaciones de nuestro catálogo para conseguir los mejores resultados.
