@@ -16,6 +16,8 @@ permalink: /es/oss/
       <li><a class="filter" data-filter=".cms">Gestión de contenidos</a></li>
       <li><a class="filter" data-filter=".chat">Chat de grupo</a></li>
       <li><a class="filter" data-filter=".crm">Gestión de clientes</a></li>
+      <li><a class="filter" data-filter=".e-commerce">Comercio electrónico</a></li>
+      <li><a class="filter" data-filter=".e-learning">Cursos online</a></li>
     </ul>
 
     <a class="btn sort waves-effect waves-light waves-input-wrapper" data-sort="myorder:asc">Asc</a>
@@ -25,7 +27,7 @@ permalink: /es/oss/
 
     <div class="row">
       {% for repo in site.data.repositories %}
-      <div class="col s6 m4 l3 mix {{ repo.tags[0] }}" data-myorder="{{ repo.stars_count }}">
+      <div class="col s6 m4 l3 mix {{ repo.tags[0] }} {{ repo.tags[1] }}" data-myorder="{{ repo.stars_count }}">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="{{ repo.logo }}">
