@@ -1,6 +1,54 @@
 
 [
   {
+    "name": "Jekyll",
+    "logo": "https://jekyllrb.com/img/logo-2x.png",
+    "tags": [
+      "static"
+    ],
+    "links": [{
+      "url": "https://jekyllrb.com/",
+      "title": "Jekyll"
+    }, {
+      "url": "https://github.com/jekyll/jekyll",
+      "title": "Github"
+    }],
+    "forks_count": 5139,
+    "stars_count": 24153,
+    "description": "Simple, blog-aware, static sites. Transform your plain text into a website"
+  },{
+    "name": "HarpJS",
+    "logo": "http://sintaxi.com/assets/img/harp-banner.svg",
+    "tags": [
+      "static"
+    ],
+    "links": [{
+      "url": "http://harpjs.com/",
+      "title": "HarpJS"
+    }, {
+      "url": "https://github.com/sintaxi/harp",
+      "title": "Github"
+    }],
+    "forks_count": 218,
+    "stars_count": 3681,
+    "description": "The static web server with built-in preprocessing"
+  },{
+    "name": "Docpad",
+    "logo": "https://avatars3.githubusercontent.com/u/1865439?v=3&s=400",
+    "tags": [
+      "static"
+    ],
+    "links": [{
+      "url": "http://docpad.org/",
+      "title": "Docpad"
+    }, {
+      "url": "https://github.com/docpad/docpad",
+      "title": "Github"
+    }],
+    "forks_count": 226,
+    "stars_count": 2768,
+    "description": "DocPad removes limitations and closes the gap between experts and beginners. Designers and developers can create websites faster than ever before"
+  },{
     "name": "Wekan",
     "logo": "https://wekan.io/static/wekan-logo.png",
     "tags": [
