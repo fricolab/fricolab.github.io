@@ -2,7 +2,7 @@
 [
   {
     "name": "Wekan",
-    "logo": "https://wekan.io/static/wekan-logo.png",
+    "logo": "https://pbs.twimg.com/profile_images/641959225325932544/-NNP9RC0.png",
     "tags": [
       "agile"
     ],
@@ -19,7 +19,7 @@
   },
   {
     "name": "Taiga",
-    "logo": "https://taiga.io/media/support/attachments/article-22/icon-taiga-color.svg",
+    "logo": "https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50.png",
     "tags": [
       "agile"
     ],
@@ -50,22 +50,5 @@
     "forks_count": 479,
     "stars_count": 1535,
     "description": "Kanban project management software"
-  },
-  {
-    "name": "Taskboard",
-    "logo": "https://taskboard.matthewross.me/images/board.png",
-    "tags": [
-      "agile"
-    ],
-    "links": [{
-      "url": "https://taskboard.matthewross.me/",
-      "title": "Website"
-    }, {
-      "url": "https://github.com/kiswa/TaskBoard",
-      "title": "Github"
-    }],
-    "forks_count": 94,
-    "stars_count": 474,
-    "description": "A Kanban-inspired app for keeping track of things that need to get done."
   }
 ]

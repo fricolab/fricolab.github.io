@@ -91,6 +91,7 @@ div.card-image {
 
 #Container div.card-image img {
   padding: 25px;
-  top: 25% !important;
-  max-height: 85%;
+  border-radius: 50px;
+  /*top: 25% !important;*/
+  /*max-height: 85%;*/
 }
