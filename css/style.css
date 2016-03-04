@@ -87,11 +87,11 @@ footer.page-footer {
 
 div.card-image {
   height: 220px;
+  line-height: 220px;
 }
 
 #Container div.card-image img {
   padding: 25px;
-  border-radius: 50px;
-  /*top: 25% !important;*/
-  /*max-height: 85%;*/
+  display: inline-block;
+  vertical-align: middle;
 }

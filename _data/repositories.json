@@ -2,20 +2,20 @@
 [
   {
     "name": "Wekan",
-    "logo": "https://pbs.twimg.com/profile_images/641959225325932544/-NNP9RC0.png",
+    "logo": "https://wekan.io/static/wekan-logo.png",
     "tags": [
       "agile"
     ],
     "links": [{
       "url": "https://wekan.io/",
-      "title": "Website"
+      "title": "Wekan"
     }, {
       "url": "https://github.com/wekan/wekan",
       "title": "Github"
     }],
     "forks_count": 748,
     "stars_count": 6346,
-    "description": "The open-source Trello-like kanban (build with Meteor)."
+    "description": "The open-source Trello-like kanban (build with Meteor)"
   },
   {
     "name": "Taiga",
@@ -25,7 +25,7 @@
     ],
     "links": [{
       "url": "https://taiga.io/",
-      "title": "Website"
+      "title": "Taiga"
     } ,{
       "url": "https://github.com/taigaio/taiga-back",
       "title": "Github"
@@ -42,7 +42,7 @@
     ],
     "links": [{
       "url": "http://kanboard.net/",
-      "title": "Website"
+      "title": "Kanboard"
     } ,{
       "url": "https://github.com/fguillot/kanboard",
       "title": "Github"
@@ -50,5 +50,141 @@
     "forks_count": 479,
     "stars_count": 1535,
     "description": "Kanban project management software"
+  },
+  {
+    "name": "Rocket.chat",
+    "logo": "https://pbs.twimg.com/profile_images/633362741735096320/tCSKtjoq.png",
+    "tags": [
+      "chat"
+    ],
+    "links": [{
+      "url": "https://rocket.chat/",
+      "title": "Rocket.chat"
+    } ,{
+      "url": "https://github.com/RocketChat/Rocket.Chat",
+      "title": "Github"
+      }],
+    "forks_count": 1131,
+    "stars_count": 6103,
+    "description": "Have your own Slack like online chat, built with Meteor"
+  },
+  {
+    "name": "Lets Chat",
+    "logo": "https://camo.githubusercontent.com/59e42ea1b29e58a290557dd2425931eec1185e78/687474703a2f2f692e696d6775722e636f6d2f3061336c3556462e706e67",
+    "tags": [
+      "chat"
+    ],
+    "links": [{
+      "url": "http://sdelements.github.io/lets-chat/",
+      "title": "Let's Chat"
+    } ,{
+      "url": "https://github.com/sdelements/lets-chat",
+      "title": "Github"
+      }],
+    "forks_count": 1089,
+    "stars_count": 7772,
+    "description": "Self-hosted chat app for small teams"
+  },
+  {
+    "name": "Mattermost",
+    "logo": "http://www.mattermost.org/wp-content/uploads/2016/02/logoVertical.png",
+    "tags": [
+      "chat"
+    ],
+    "links": [{
+      "url": "http://www.mattermost.org/",
+      "title": "Mattermost"
+    } ,{
+      "url": "https://github.com/mattermost/platform",
+      "title": "Github"
+      }],
+    "forks_count": 687,
+    "stars_count": 6824,
+    "description": "Open source Slack-alternative in Golang and React"
+  },
+  {
+    "name": "Wordpress",
+    "logo": "https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png",
+    "tags": [
+      "cms"
+    ],
+    "links": [{
+      "url": "https://wordpress.org/",
+      "title": "Wordpress"
+    } ,{
+      "url": "https://github.com/WordPress/WordPress",
+      "title": "Github"
+      }],
+    "forks_count": 3608,
+    "stars_count": 7047,
+    "description": "WordPress is web software you can use to create a beautiful website, blog, or app"
+  },
+  {
+    "name": "Ghost",
+    "logo": "https://ghost.org/assets/logos-d976c73a12a1a34a3db6be321db81f71.png",
+    "tags": [
+      "cms"
+    ],
+    "links": [{
+      "url": "https://ghost.org/",
+      "title": "Ghost"
+    } ,{
+      "url": "https://github.com/TryGhost/Ghost",
+      "title": "Github"
+      }],
+    "forks_count": 4624,
+    "stars_count": 18699,
+    "description": "A publishing platform for professional bloggers"
+  },
+  {
+    "name": "SuiteCRM",
+    "logo": "https://suitecrm.com/images/suite_icon.png",
+    "tags": [
+      "crm"
+    ],
+    "links": [{
+      "url": "https://suitecrm.com/",
+      "title": "SuiteCRM"
+    } ,{
+      "url": "https://github.com/salesagility/SuiteCRM",
+      "title": "Github"
+      }],
+    "forks_count": 279,
+    "stars_count": 315,
+    "description": "Open source CRM for the world"
+  },
+  {
+    "name": "Fat Free CRM",
+    "logo": "http://www.fatfreecrm.com/images/logo.png",
+    "tags": [
+      "crm"
+    ],
+    "links": [{
+      "url": "http://www.fatfreecrm.com/",
+      "title": "Fat Free CRM"
+    } ,{
+      "url": "https://github.com/fatfreecrm/fat_free_crm",
+      "title": "Github"
+      }],
+    "forks_count": 1003,
+    "stars_count": 2683,
+    "description": "Ruby on Rails CRM platform for Web 2.0 and beyond"
+  },
+  {
+    "name": "Odoo",
+    "logo": "https://www.odoo.com/openerp_website/static/src/img/assets/svg/odoo_logo_rgb.svg",
+    "tags": [
+      "crm"
+    ],
+    "links": [{
+      "url": "https://www.odoo.com/",
+      "title": "Odoo"
+    } ,{
+      "url": "https://github.com/odoo/odoo",
+      "title": "Github"
+      }],
+    "forks_count": 3713,
+    "stars_count": 3863,
+    "description": "Open Source Apps To Grow Your Business"
   }
 ]
