@@ -94,4 +94,5 @@ div.card-image {
   padding: 25px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 30px;
 }
