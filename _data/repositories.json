@@ -13,40 +13,40 @@
       "url": "https://github.com/jekyll/jekyll",
       "title": "Github"
     }],
-    "forks_count": 5139,
-    "stars_count": 24153,
+    "forks_count": 6166,
+    "stars_count": 27757,
     "description": "Simple, blog-aware, static sites. Transform your plain text into a website"
   },{
-    "name": "HarpJS",
-    "logo": "http://sintaxi.com/assets/img/harp-banner.svg",
+    "name": "GatsbyJS",
+    "logo": "https://pbs.twimg.com/profile_images/781367540207321088/2EY6Jqs-.jpg",
     "tags": [
       "static"
     ],
     "links": [{
-      "url": "http://harpjs.com/",
-      "title": "HarpJS"
+      "url": "http://gatsbyjs.github.io/gatsby-starter-default/",
+      "title": "GatsbyJS"
     }, {
-      "url": "https://github.com/sintaxi/harp",
+      "url": "https://github.com/gatsbyjs/gatsby",
       "title": "Github"
     }],
-    "forks_count": 218,
-    "stars_count": 3681,
-    "description": "The static web server with built-in preprocessing"
+    "forks_count": 330,
+    "stars_count": 6521,
+    "description": "Transform plain text into dynamic blogs and websites using React.js"
   },{
-    "name": "Docpad",
-    "logo": "https://avatars3.githubusercontent.com/u/1865439?v=3&s=400",
+    "name": "Hugo",
+    "logo": "https://gohugo.io/img/hugo.png",
     "tags": [
       "static"
     ],
     "links": [{
-      "url": "http://docpad.org/",
-      "title": "Docpad"
+      "url": "http://gohugo.io",
+      "title": "Hugo"
     }, {
-      "url": "https://github.com/docpad/docpad",
+      "url": "https://github.com/spf13/hugo",
       "title": "Github"
     }],
-    "forks_count": 226,
-    "stars_count": 2768,
+    "forks_count": 2066,
+    "stars_count": 13532,
     "description": "DocPad removes limitations and closes the gap between experts and beginners. Designers and developers can create websites faster than ever before"
   },{
     "name": "Wekan",
