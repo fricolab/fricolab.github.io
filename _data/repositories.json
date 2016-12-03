@@ -203,7 +203,7 @@
   },
   {
     "name": "Odoo",
-    "logo": "https://www.odoo.com/openerp_website/static/src/img/assets/svg/odoo_logo_rgb.svg",
+    "logo": "https://odoocdn.com/openerp_website/static/src/img/assets/png/odoo_logo_plain.png",
     "tags": [
       "crm",
       "e-commerce"
