@@ -168,6 +168,23 @@
     "description": "A publishing platform for professional bloggers"
   },
   {
+    "name": "Gogs",
+    "logo": "https://gogs.io/img/favicon.ico",
+    "tags": [
+      "cms"
+    ],
+    "links": [{
+      "url": "https://gogs.io/",
+      "title": "Gogs"
+    } ,{
+      "url": "https://github.com/gogits/gogs/",
+      "title": "Github"
+      }],
+    "forks_count": 1860,
+    "stars_count": 16652,
+    "description": "A painless self-hosted Git service"
+  },
+  {
     "name": "SuiteCRM",
     "logo": "https://suitecrm.com/images/suite_icon.png",
     "tags": [
