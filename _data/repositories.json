@@ -83,6 +83,23 @@
     "description": "Project management web application with scrum in mind! Built on top of Django and AngularJS"
   },
   {
+    "name": "Etherpad",
+    "logo": "https://raw.githubusercontent.com/EduCaaS/catalog/master/templates/etherpad/catalogIcon-etherpad.svg",
+    "tags": [
+      "agile"
+    ],
+    "links": [{
+      "url": "http://etherpad.org/",
+      "title": "Etherpad"
+    } ,{
+      "url": "https://github.com/ether/etherpad-lite",
+      "title": "Github"
+    }],
+    "forks_count": 1317,
+    "stars_count": 5858,
+    "description": "Really real-time collaborative document editing"
+  },
+  {
     "name": "Rocket.chat",
     "logo": "https://pbs.twimg.com/profile_images/633362741735096320/tCSKtjoq.png",
     "tags": [
