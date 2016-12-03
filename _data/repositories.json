@@ -47,7 +47,7 @@
     }],
     "forks_count": 2066,
     "stars_count": 13532,
-    "description": "DocPad removes limitations and closes the gap between experts and beginners. Designers and developers can create websites faster than ever before"
+    "description": "A Fast and Flexible Static Site Generator built with love in GoLang"
   },{
     "name": "Wekan",
     "logo": "https://wekan.io/static/wekan-logo.png",
@@ -98,23 +98,6 @@
     "forks_count": 1131,
     "stars_count": 6103,
     "description": "Have your own Slack like online chat, built with Meteor"
-  },
-  {
-    "name": "Lets Chat",
-    "logo": "https://camo.githubusercontent.com/59e42ea1b29e58a290557dd2425931eec1185e78/687474703a2f2f692e696d6775722e636f6d2f3061336c3556462e706e67",
-    "tags": [
-      "chat"
-    ],
-    "links": [{
-      "url": "http://sdelements.github.io/lets-chat/",
-      "title": "Let's Chat"
-    } ,{
-      "url": "https://github.com/sdelements/lets-chat",
-      "title": "Github"
-      }],
-    "forks_count": 1089,
-    "stars_count": 7772,
-    "description": "Self-hosted chat app for small teams"
   },
   {
     "name": "Mattermost",
