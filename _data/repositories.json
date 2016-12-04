@@ -171,7 +171,7 @@
     "name": "Gogs",
     "logo": "https://gogs.io/img/favicon.ico",
     "tags": [
-      "cms"
+      "repo"
     ],
     "links": [{
       "url": "https://gogs.io/",
@@ -183,6 +183,23 @@
     "forks_count": 1860,
     "stars_count": 16652,
     "description": "A painless self-hosted Git service"
+  },
+  {
+    "name": "Seafile",
+    "logo": "https://www.seafile.com/media/img/seafile-logo.png",
+    "tags": [
+      "repo"
+    ],
+    "links": [{
+      "url": "https://www.seafile.com",
+      "title": "Seafile"
+    } ,{
+      "url": "https://github.com/haiwen/seafile",
+      "title": "Github"
+      }],
+    "forks_count": 789,
+    "stars_count": 4356,
+    "description": "Reliable and High Speed File Sync and Share"
   },
   {
     "name": "SuiteCRM",
