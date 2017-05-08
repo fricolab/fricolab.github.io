@@ -1,6 +1,41 @@
 
 [
   {
+    "name": "EduCaaS",
+    "logo": "https://gitlab.com/uploads/group/avatar/835823/logo_azul.png",
+    "tags": [
+      "infrastructure",
+      "e-learning"
+    ],
+    "links": [{
+      "url": "http://educaas.io/",
+      "title": "EduCaaS"
+    }, {
+      "url": "https://github.com/educaas",
+      "title": "Github"
+    }],
+    "forks_count": 2,
+    "stars_count": 2,
+    "description": "Digital learning and creation environment powered by microservices"
+  },
+  {
+    "name": "Rancher",
+    "logo": "http://cdn.rancher.com/wp-content/uploads/2017/02/05132759/rancher-logo_stacked-full-color-1.jpg",
+    "tags": [
+      "infrastructure"
+    ],
+    "links": [{
+      "url": "http://rancher.com/",
+      "title": "Rancher"
+    }, {
+      "url": "https://github.com/rancher/rancher",
+      "title": "Github"
+    }],
+    "forks_count": 561,
+    "stars_count": 5932,
+    "description": "Platform for operating Docker in production"
+  },
+  {
     "name": "Jekyll",
     "logo": "https://jekyllrb.com/img/logo-2x.png",
     "tags": [
