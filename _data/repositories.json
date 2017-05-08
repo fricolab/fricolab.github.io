@@ -13,10 +13,11 @@
       "url": "https://github.com/jekyll/jekyll",
       "title": "Github"
     }],
-    "forks_count": 6166,
-    "stars_count": 27757,
+    "forks_count": 6590,
+    "stars_count": 29616,
     "description": "Simple, blog-aware, static sites. Transform your plain text into a website"
-  },{
+  },
+  {
     "name": "GatsbyJS",
     "logo": "https://pbs.twimg.com/profile_images/781367540207321088/2EY6Jqs-.jpg",
     "tags": [
@@ -29,28 +30,13 @@
       "url": "https://github.com/gatsbyjs/gatsby",
       "title": "Github"
     }],
-    "forks_count": 330,
-    "stars_count": 6521,
+    "forks_count": 510,
+    "stars_count": 9111,
     "description": "Transform plain text into dynamic blogs and websites using React.js"
-  },{
-    "name": "Hugo",
-    "logo": "https://gohugo.io/img/hugo.png",
-    "tags": [
-      "static"
-    ],
-    "links": [{
-      "url": "http://gohugo.io",
-      "title": "Hugo"
-    }, {
-      "url": "https://github.com/spf13/hugo",
-      "title": "Github"
-    }],
-    "forks_count": 2066,
-    "stars_count": 13532,
-    "description": "A Fast and Flexible Static Site Generator built with love in GoLang"
-  },{
+  },
+  {
     "name": "Wekan",
-    "logo": "https://wekan.io/static/wekan-logo.png",
+    "logo": "https://wekan.github.io/wekan-logo.png",
     "tags": [
       "agile"
     ],
@@ -61,8 +47,8 @@
       "url": "https://github.com/wekan/wekan",
       "title": "Github"
     }],
-    "forks_count": 748,
-    "stars_count": 6346,
+    "forks_count": 1356,
+    "stars_count": 9621,
     "description": "The open-source Trello-like kanban (build with Meteor)"
   },
   {
@@ -78,8 +64,8 @@
       "url": "https://github.com/taigaio/taiga-back",
       "title": "Github"
     }],
-    "forks_count": 394,
-    "stars_count": 2657,
+    "forks_count": 610,
+    "stars_count": 3463,
     "description": "Project management web application with scrum in mind! Built on top of Django and AngularJS"
   },
   {
@@ -95,15 +81,15 @@
       "url": "https://github.com/ether/etherpad-lite",
       "title": "Github"
     }],
-    "forks_count": 1317,
-    "stars_count": 5858,
+    "forks_count": 1387,
+    "stars_count": 6232,
     "description": "Really real-time collaborative document editing"
   },
   {
     "name": "Rocket.chat",
     "logo": "https://pbs.twimg.com/profile_images/633362741735096320/tCSKtjoq.png",
     "tags": [
-      "chat"
+      "talk"
     ],
     "links": [{
       "url": "https://rocket.chat/",
@@ -112,26 +98,9 @@
       "url": "https://github.com/RocketChat/Rocket.Chat",
       "title": "Github"
       }],
-    "forks_count": 1131,
-    "stars_count": 6103,
+    "forks_count": 2572,
+    "stars_count": 11969,
     "description": "Have your own Slack like online chat, built with Meteor"
-  },
-  {
-    "name": "Mattermost",
-    "logo": "https://avatars0.githubusercontent.com/u/9828093?v=3&s=200",
-    "tags": [
-      "chat"
-    ],
-    "links": [{
-      "url": "http://www.mattermost.org/",
-      "title": "Mattermost"
-    } ,{
-      "url": "https://github.com/mattermost/platform",
-      "title": "Github"
-      }],
-    "forks_count": 687,
-    "stars_count": 6824,
-    "description": "Open source Slack-alternative in Golang and React"
   },
   {
     "name": "Wordpress",
@@ -146,26 +115,9 @@
       "url": "https://github.com/WordPress/WordPress",
       "title": "Github"
       }],
-    "forks_count": 3608,
-    "stars_count": 7047,
+    "forks_count": 4782,
+    "stars_count": 9136,
     "description": "WordPress is web software you can use to create a beautiful website, blog, or app"
-  },
-  {
-    "name": "Ghost",
-    "logo": "https://ghost.org/assets/logos-d976c73a12a1a34a3db6be321db81f71.png",
-    "tags": [
-      "cms"
-    ],
-    "links": [{
-      "url": "https://ghost.org/",
-      "title": "Ghost"
-    } ,{
-      "url": "https://github.com/TryGhost/Ghost",
-      "title": "Github"
-      }],
-    "forks_count": 4624,
-    "stars_count": 18699,
-    "description": "A publishing platform for professional bloggers"
   },
   {
     "name": "Gogs",
@@ -180,60 +132,26 @@
       "url": "https://github.com/gogits/gogs/",
       "title": "Github"
       }],
-    "forks_count": 1860,
-    "stars_count": 16652,
+    "forks_count": 2153,
+    "stars_count": 18988,
     "description": "A painless self-hosted Git service"
   },
   {
-    "name": "Seafile",
-    "logo": "https://www.seafile.com/media/img/seafile-logo.png",
+    "name": "Nextcloud",
+    "logo": "https://nextcloud.com/wp-content/themes/next/assets/img/common/nextcloud-square-logo.png",
     "tags": [
       "repo"
     ],
     "links": [{
-      "url": "https://www.seafile.com",
-      "title": "Seafile"
+      "url": "https://www.nextcloud.com",
+      "title": "Nextcloud"
     } ,{
-      "url": "https://github.com/haiwen/seafile",
+      "url": "https://github.com/nextcloud/server",
       "title": "Github"
       }],
-    "forks_count": 789,
-    "stars_count": 4356,
-    "description": "Reliable and High Speed File Sync and Share"
-  },
-  {
-    "name": "SuiteCRM",
-    "logo": "https://suitecrm.com/images/suite_icon.png",
-    "tags": [
-      "crm"
-    ],
-    "links": [{
-      "url": "https://suitecrm.com/",
-      "title": "SuiteCRM"
-    } ,{
-      "url": "https://github.com/salesagility/SuiteCRM",
-      "title": "Github"
-      }],
-    "forks_count": 279,
-    "stars_count": 315,
-    "description": "Open source CRM for the world"
-  },
-  {
-    "name": "Fat Free CRM",
-    "logo": "http://www.fatfreecrm.com/images/logo.png",
-    "tags": [
-      "crm"
-    ],
-    "links": [{
-      "url": "http://www.fatfreecrm.com/",
-      "title": "Fat Free CRM"
-    } ,{
-      "url": "https://github.com/fatfreecrm/fat_free_crm",
-      "title": "Github"
-      }],
-    "forks_count": 1003,
-    "stars_count": 2683,
-    "description": "Ruby on Rails CRM platform for Web 2.0 and beyond"
+    "forks_count": 298,
+    "stars_count": 1827,
+    "description": "Nextcloud server, a safe home for all your data"
   },
   {
     "name": "Odoo",
@@ -249,43 +167,9 @@
       "url": "https://github.com/odoo/odoo",
       "title": "Github"
       }],
-    "forks_count": 3713,
-    "stars_count": 3863,
+    "forks_count": 6091,
+    "stars_count": 6570,
     "description": "Open Source Apps To Grow Your Business"
-  },
-  {
-    "name": "Magento",
-    "logo": "https://pbs.twimg.com/profile_images/615641445714624512/uhGmfNwj.png",
-    "tags": [
-      "e-commerce"
-    ],
-    "links": [{
-      "url": "https://magento.com/",
-      "title": "Magento"
-    } ,{
-      "url": "https://github.com/magento/magento2",
-      "title": "Github"
-      }],
-    "forks_count": 2049,
-    "stars_count": 3191,
-    "description": "The Leading Digital Commerce Platform"
-  },
-  {
-    "name": "Prestashop",
-    "logo": "https://img-cdn.prestashop.com/logo.png",
-    "tags": [
-      "e-commerce"
-    ],
-    "links": [{
-      "url": "http://www.prestahop.com/",
-      "title": "Prestashop"
-    } ,{
-      "url": "https://github.com/PrestaShop/PrestaShop",
-      "title": "Github"
-      }],
-    "forks_count": 1819,
-    "stars_count": 1668,
-    "description": "A free, fully scalable, Open Source e-commerce solution"
   },
   {
     "name": "Open edX",
@@ -300,26 +184,9 @@
       "url": "https://github.com/edx/edx-platform",
       "title": "Github"
       }],
-    "forks_count": 1475,
-    "stars_count": 2430,
+    "forks_count": 1814,
+    "stars_count": 3120,
     "description": "The Open edX platform, the software that powers edX!"
-  },
-  {
-    "name": "Chamilo",
-    "logo": "https://chamilo.org/wp-content/uploads/2014/11/logo1.png",
-    "tags": [
-      "e-learning"
-    ],
-    "links": [{
-      "url": "https://chamilo.org/",
-      "title": "Chamilo"
-    } ,{
-      "url": "https://github.com/chamilo/chamilo-lms",
-      "title": "Github"
-      }],
-    "forks_count": 127,
-    "stars_count": 119,
-    "description": "A learning management system focusing on ease of use, re-usability, collaboration and sharing"
   },
   {
     "name": "Moodle",
@@ -334,7 +201,7 @@
       "url": "https://github.com/moodle/moodle",
       "title": "Github"
       }],
-    "forks_count": 2163,
+    "forks_count": 2729,
     "stars_count": 1349,
     "description": "The world's open source learning platform"
   },
@@ -351,25 +218,76 @@
       "url": "https://github.com/p2pu/learning-circles",
       "title": "Github"
       }],
-    "forks_count": 1,
-    "stars_count": 2,
-    "description": "Tool to help organize local groups"
+    "forks_count": 3,
+    "stars_count": 6,
+    "description": "Tool to help organize local learning groups"
   },
   {
-    "name": "Course in a Box",
-    "logo": "https://learningcircles.p2pu.org/static/images/logo.png",
+    "name": "Discourse",
+    "logo": "https://raw.githubusercontent.com/discourse/discourse/master/images/discourse.png",
     "tags": [
-      "e-learning"
+      "talk"
     ],
     "links": [{
-      "url": "http://howto.p2pu.org/",
-      "title": "Course in a Box"
+      "url": "https://discourse.org",
+      "title": "Discourse"
     } ,{
-      "url": "https://github.com/p2pu/course-in-a-box",
+      "url": "https://github.com/discourse/discourse",
       "title": "Github"
       }],
-    "forks_count": 141,
-    "stars_count": 22,
-    "description": "Everything you need to create an online course"
+    "forks_count": 5604,
+    "stars_count": 21502,
+    "description": "A platform for community discussion. Free, open, simple."
+  },
+  {
+    "name": "Hublin",
+    "logo": "https://hubl.in/images/logo_hublin-bubbles.png",
+    "tags": [
+      "talk"
+    ],
+    "links": [{
+      "url": "https://hubl.in",
+      "title": "Hublin"
+    } ,{
+      "url": "https://github.com/linagora/hublin",
+      "title": "Github"
+      }],
+    "forks_count": 205,
+    "stars_count": 1240,
+    "description": "An easy and free video conference service #webrtc"
+  },
+  {
+    "name": "Wallabag",
+    "logo": "https://github.com/wallabag/logo/blob/master/_default/typo-square/png/md/logo-typo-square-bg-black-md.png?raw=true",
+    "tags": [
+      "bookmarking"
+    ],
+    "links": [{
+      "url": "https://wallabag.org",
+      "title": "Wallabag"
+    } ,{
+      "url": "https://github.com/wallabag/wallabag",
+      "title": "Github"
+      }],
+    "forks_count": 395,
+    "stars_count": 2737,
+    "description": "A self hostable application for saving web pages."
+  },
+  {
+    "name": "Creative Canvas",
+    "logo": "https://gitlab.com/uploads/group/avatar/835823/logo_azul.png",
+    "tags": [
+      "agile"
+    ],
+    "links": [{
+      "url": "https://canvas.educaas.io",
+      "title": "Creative Canvas"
+    } ,{
+      "url": "https://github.com/dalareo/creative-canvas",
+      "title": "Github"
+      }],
+    "forks_count": 0,
+    "stars_count": 2,
+    "description": "Creative sessions digital tool with Meteor. No more post-it notes in the trash can!"
   }
 ]
