@@ -2,7 +2,7 @@
 [
   {
     "name": "EduCaaS",
-    "logo": "https://gitlab.com/uploads/group/avatar/835823/logo_azul.png",
+    "logo": "https://avatars3.githubusercontent.com/u/19166995?s=280&v=4",
     "tags": [
       "infrastructure",
       "e-learning"
@@ -20,7 +20,7 @@
   },
   {
     "name": "Rancher",
-    "logo": "http://cdn.rancher.com/wp-content/uploads/2017/02/05132759/rancher-logo_stacked-full-color-1.jpg",
+    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_jpg/v1424867596/oeqralgsp8wdazmu4m2g.png",
     "tags": [
       "infrastructure"
     ],
@@ -37,7 +37,7 @@
   },
   {
     "name": "Jekyll",
-    "logo": "https://jekyllrb.com/img/logo-2x.png",
+    "logo": "https://jaki-jezyk-programowania.pl/img/jekyll.png",
     "tags": [
       "static"
     ],
@@ -54,7 +54,7 @@
   },
   {
     "name": "GatsbyJS",
-    "logo": "https://pbs.twimg.com/profile_images/781367540207321088/2EY6Jqs-.jpg",
+    "logo": "https://camo.githubusercontent.com/9c70ec950802d744cd3bccaa97fadbfdd7c8f2a9/68747470733a2f2f7777772e6761747362796a732e6f72672f6761747362792d6e656761746976652e737667",
     "tags": [
       "static"
     ],
@@ -71,7 +71,7 @@
   },
   {
     "name": "Wekan",
-    "logo": "https://wekan.github.io/wekan-logo.png",
+    "logo": "https://images.sftcdn.net/images/t_optimized,f_auto/p/bb7fd4ab-16c2-44f0-8234-ead9934e0400/318547342/wekan-logo.png",
     "tags": [
       "agile"
     ],
@@ -88,7 +88,7 @@
   },
   {
     "name": "Taiga",
-    "logo": "https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50.png",
+    "logo": "https://blog.desdelinux.net/wp-content/uploads/2015/12/Taiga-logo.png",
     "tags": [
       "agile"
     ],
@@ -105,7 +105,7 @@
   },
   {
     "name": "Etherpad",
-    "logo": "https://pbs.twimg.com/profile_images/586181889171578880/eWMxrZet.png",
+    "logo": "https://translatewiki.net/images/thumb/6/6f/Etherpad_lite.svg/200px-Etherpad_lite.svg.png",
     "tags": [
       "agile"
     ],
@@ -122,7 +122,7 @@
   },
   {
     "name": "Rocket.chat",
-    "logo": "https://pbs.twimg.com/profile_images/633362741735096320/tCSKtjoq.png",
+    "logo": "https://cdn.worldvectorlogo.com/logos/rocket-chat.svg",
     "tags": [
       "talk"
     ],
@@ -139,7 +139,7 @@
   },
   {
     "name": "Wordpress",
-    "logo": "https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png",
+    "logo": "http://jordiplana.com/wp-content/uploads/2014/06/wordpress-logo-square-256x256.png",
     "tags": [
       "cms"
     ],
@@ -190,7 +190,7 @@
   },
   {
     "name": "Odoo",
-    "logo": "https://odoocdn.com/openerp_website/static/src/img/assets/png/odoo_logo_plain.png",
+    "logo": "https://d1q6f0aelx0por.cloudfront.net/product-logos/b73cfa1a-20c0-45a8-98fc-9f5e8ddfb4cb-odoo.png",
     "tags": [
       "crm",
       "e-commerce"
@@ -208,7 +208,7 @@
   },
   {
     "name": "Open edX",
-    "logo": "https://open.edx.org/sites/all/themes/edx_open/logo.png",
+    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_jpg/v1397204362/021f8dcfb68b165029a3c6db8a187f8a.jpg",
     "tags": [
       "e-learning"
     ],
@@ -225,7 +225,7 @@
   },
   {
     "name": "Moodle",
-    "logo": "https://moodle.org/theme/image.php/moodleorgcleaned_moodleorg/theme_moodleorgcleaned/1456925305/moodle-logo",
+    "logo": "http://windowshostasp.net/wp-content/uploads/moodle-logo-e1425453725799.png",
     "tags": [
       "e-learning"
     ],
@@ -242,7 +242,7 @@
   },
   {
     "name": "Learning Circles",
-    "logo": "https://learningcircles.p2pu.org/static/images/logo.png",
+    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_jpg/v1444143805/s0prdlcgy6g4tt3j4jtx.png",
     "tags": [
       "e-learning"
     ],
@@ -259,7 +259,7 @@
   },
   {
     "name": "Discourse",
-    "logo": "https://raw.githubusercontent.com/discourse/discourse/master/images/discourse.png",
+    "logo": "https://logo.clearbit.com/discourse.org",
     "tags": [
       "talk"
     ],
@@ -273,23 +273,6 @@
     "forks_count": 5604,
     "stars_count": 21502,
     "description": "A platform for community discussion. Free, open, simple."
-  },
-  {
-    "name": "Hublin",
-    "logo": "https://hubl.in/images/logo_hublin-bubbles.png",
-    "tags": [
-      "talk"
-    ],
-    "links": [{
-      "url": "https://hubl.in",
-      "title": "Hublin"
-    } ,{
-      "url": "https://github.com/linagora/hublin",
-      "title": "Github"
-      }],
-    "forks_count": 205,
-    "stars_count": 1240,
-    "description": "An easy and free video conference service #webrtc"
   },
   {
     "name": "Wallabag",
@@ -310,7 +293,7 @@
   },
   {
     "name": "Creative Canvas",
-    "logo": "https://gitlab.com/uploads/group/avatar/835823/logo_azul.png",
+    "logo": "https://avatars3.githubusercontent.com/u/19166995?s=280&v=4",
     "tags": [
       "agile"
     ],

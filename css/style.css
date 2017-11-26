@@ -92,7 +92,6 @@ div.card-image {
 
 #Container div.card-image img {
   padding: 25px;
-  display: inline-block;
   vertical-align: middle;
   border-radius: 30px;
 }
