@@ -14,7 +14,7 @@
       "url": "https://github.com/educaas",
       "title": "Github"
     }],
-    "forks_count": 2,
+    "forks_count": 153,
     "stars_count": 2,
     "description": "Digital learning and creation environment powered by microservices"
   },
@@ -31,8 +31,8 @@
       "url": "https://github.com/rancher/rancher",
       "title": "Github"
     }],
-    "forks_count": 561,
-    "stars_count": 5932,
+    "forks_count": 677,
+    "stars_count": 7205,
     "description": "Platform for operating Docker in production"
   },
   {
@@ -48,8 +48,8 @@
       "url": "https://github.com/jekyll/jekyll",
       "title": "Github"
     }],
-    "forks_count": 6590,
-    "stars_count": 29616,
+    "forks_count": 7093,
+    "stars_count": 31980,
     "description": "Simple, blog-aware, static sites. Transform your plain text into a website"
   },
   {
@@ -65,8 +65,8 @@
       "url": "https://github.com/gatsbyjs/gatsby",
       "title": "Github"
     }],
-    "forks_count": 510,
-    "stars_count": 9111,
+    "forks_count": 1208,
+    "stars_count": 15258,
     "description": "Transform plain text into dynamic blogs and websites using React.js"
   },
   {
@@ -82,8 +82,8 @@
       "url": "https://github.com/wekan/wekan",
       "title": "Github"
     }],
-    "forks_count": 1356,
-    "stars_count": 9621,
+    "forks_count": 1601,
+    "stars_count": 11889,
     "description": "The open-source Trello-like kanban (build with Meteor)"
   },
   {
@@ -99,8 +99,8 @@
       "url": "https://github.com/taigaio/taiga-back",
       "title": "Github"
     }],
-    "forks_count": 610,
-    "stars_count": 3463,
+    "forks_count": 707,
+    "stars_count": 3837,
     "description": "Project management web application with scrum in mind! Built on top of Django and AngularJS"
   },
   {
@@ -116,8 +116,8 @@
       "url": "https://github.com/ether/etherpad-lite",
       "title": "Github"
     }],
-    "forks_count": 1387,
-    "stars_count": 6232,
+    "forks_count": 1478,
+    "stars_count": 6607,
     "description": "Really real-time collaborative document editing"
   },
   {
@@ -133,8 +133,8 @@
       "url": "https://github.com/RocketChat/Rocket.Chat",
       "title": "Github"
       }],
-    "forks_count": 2572,
-    "stars_count": 11969,
+    "forks_count": 3207,
+    "stars_count": 15086,
     "description": "Have your own Slack like online chat, built with Meteor"
   },
   {
@@ -150,8 +150,8 @@
       "url": "https://github.com/WordPress/WordPress",
       "title": "Github"
       }],
-    "forks_count": 4782,
-    "stars_count": 9136,
+    "forks_count": 5831,
+    "stars_count": 10157,
     "description": "WordPress is web software you can use to create a beautiful website, blog, or app"
   },
   {
@@ -167,8 +167,8 @@
       "url": "https://github.com/gogits/gogs/",
       "title": "Github"
       }],
-    "forks_count": 2153,
-    "stars_count": 18988,
+    "forks_count": 2539,
+    "stars_count": 21874,
     "description": "A painless self-hosted Git service"
   },
   {
@@ -184,8 +184,8 @@
       "url": "https://github.com/nextcloud/server",
       "title": "Github"
       }],
-    "forks_count": 298,
-    "stars_count": 1827,
+    "forks_count": 550,
+    "stars_count": 3195,
     "description": "Nextcloud server, a safe home for all your data"
   },
   {
@@ -202,8 +202,8 @@
       "url": "https://github.com/odoo/odoo",
       "title": "Github"
       }],
-    "forks_count": 6091,
-    "stars_count": 6570,
+    "forks_count": 7157,
+    "stars_count": 8085,
     "description": "Open Source Apps To Grow Your Business"
   },
   {
@@ -219,8 +219,8 @@
       "url": "https://github.com/edx/edx-platform",
       "title": "Github"
       }],
-    "forks_count": 1814,
-    "stars_count": 3120,
+    "forks_count": 1939,
+    "stars_count": 3409,
     "description": "The Open edX platform, the software that powers edX!"
   },
   {
@@ -236,8 +236,8 @@
       "url": "https://github.com/moodle/moodle",
       "title": "Github"
       }],
-    "forks_count": 2729,
-    "stars_count": 1349,
+    "forks_count": 3024,
+    "stars_count": 1921,
     "description": "The world's open source learning platform"
   },
   {
@@ -253,7 +253,7 @@
       "url": "https://github.com/p2pu/learning-circles",
       "title": "Github"
       }],
-    "forks_count": 3,
+    "forks_count": 4,
     "stars_count": 6,
     "description": "Tool to help organize local learning groups"
   },
@@ -270,8 +270,8 @@
       "url": "https://github.com/discourse/discourse",
       "title": "Github"
       }],
-    "forks_count": 5604,
-    "stars_count": 21502,
+    "forks_count": 5849,
+    "stars_count": 23315,
     "description": "A platform for community discussion. Free, open, simple."
   },
   {
@@ -287,8 +287,8 @@
       "url": "https://github.com/wallabag/wallabag",
       "title": "Github"
       }],
-    "forks_count": 395,
-    "stars_count": 2737,
+    "forks_count": 424,
+    "stars_count": 3169,
     "description": "A self hostable application for saving web pages."
   },
   {
