@@ -1,0 +1,21 @@
+{
+  "projects": {},
+  "principles": [
+        {
+          "title": "Innovación",
+          "fa": "lightbulb"
+        },
+        {
+          "title": "Madurez",
+          "fa": "check"
+        },
+        {
+          "title": "Escalabilidad",
+          "fa": "arrows-alt"
+        },
+        {
+          "title": "Fiabilidad",
+          "fa": "hard-hat"
+        }
+      ]
+}  

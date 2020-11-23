@@ -1,10 +1,11 @@
 ---
 title: Aviso Legal
-permalink: /aviso-legal.html
+layout: page
+permalink: /legal/
 ---
 **1.DATOS IDENTIFICATIVOS:**
 
-En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: la empresa titular de dominio web es fricolab.com (en adelante FricolaB), con domicilio a estos efectos en Avenida de Los Mallos 83 2º, A Coruña, número de N.I.F.: 32787611-F. Correo electrónico de contacto: info[at]fricolab.com.
+En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: la empresa titular de dominio web es fricolab.com (en adelante FricolaB), con domicilio a estos efectos en Lugar de Pedralonga 43, A Coruña, número de N.I.F.: 32787611-F. Correo electrónico de contacto: info[at]fricolab.com.
 
 **2.USUARIOS:**
 

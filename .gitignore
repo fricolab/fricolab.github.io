@@ -1,4 +1,1 @@
-Gemfile.lock
-_site
-vendor
-.bundle
+node_modules
