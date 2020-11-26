@@ -3,19 +3,23 @@
   "principles": [
         {
           "title": "Innovación",
-          "fa": "lightbulb"
+          "fa": "lightbulb",
+          "text": "Mantenemos un diálogo permanente con los principales agentes y centros de innovación. Garantizamos que nuestras propuestas siempre consideren las últimas tendencias de la industria."
         },
         {
           "title": "Madurez",
-          "fa": "check"
+          "fa": "check",
+          "text": "Todos nuestros procesos están automatizados, son replicables y se basan en código, minimizando la intervención humana y los imprevistos en las operaciones de despliegue y actualización."
         },
         {
           "title": "Escalabilidad",
-          "fa": "arrows-alt"
+          "fa": "arrows-alt",
+          "text": "Nuestras soluciones y aplicaciones web nacen con el requisito imprescindible de facilitar el crecimiento de tu proyecto, implementamos estrategias de escalado horizontal y vertical adaptadas a tus requisitos."
         },
         {
           "title": "Fiabilidad",
-          "fa": "hard-hat"
+          "fa": "link",
+          "text": "Más allá de la alta disponibilidad apostamos por un modelo de explotacion que permita disponer de todas las evidencias necesarias para identificar la causa de cualquier incidencia con el rigor del método científico."
         }
       ]
 }  

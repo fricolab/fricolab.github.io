@@ -20,26 +20,29 @@ pagination:
 </section>
 {% endfor -%}
 
-<!--
-<section class="wrapper style1 align-center">
+
+<section class="wrapper style1 align-center" id="projects">
 	<div class="inner">
 		<h2>Algunos de nuestros proyectos</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+		<p>Hemos trabajado con los <b>líderes de diferentes sectores</b> como educacion, banca, deporte, ONGs, salud o energía y también con diferentes administraciones públicas, ayudando a desarrollar <b>soluciones de arquitectura de software, big data y administración de infraestructuras digitales</b>.</p>
 	</div>
 
 		
-		<div class="gallery style2 medium lightbox onscroll-fade-in">
+		<div class="gallery style1 medium lightbox onscroll-fade-in">		
+			{%- for project in collections.project %}
 			<article>
-				<a href="images/gallery/fulls/01.jpg" class="image">
-					<img src="images/gallery/thumbs/01.jpg" alt="" />
+				<a href="images/gallery/fulls/{{ project.data.image }}" class="image">
+					<img src="images/gallery/fulls/{{ project.data.image }}" alt="" />
 				</a>
-				<div class="caption">
-					<h3>Ipsum Dolor</h3>
-					<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+				<div class="caption invert">
+					<h3>{{ project.data.title }}</h3>
+					<p>{{ project.data.description }}</p>
 					<ul class="actions fixed">
-						<li><span class="button small">Details</span></li>
+						<!-- <li><span class="button small">Details</span></li> -->
 					</ul>
 				</div>
+			</article>
+			{% endfor -%}
 		</div>
 
 </section>
@@ -47,15 +50,15 @@ pagination:
 <section class="wrapper style1 align-center">
 	<div class="inner">
 		<h2>Nuestro código fuente</h2>
-		<p>Queremos que tu equipo proporcione el máximo valor en su trabajo, y por ello te ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que sean tu principal aliado.</p>
+		<p>Queremos que el esfuerzo de tu equipo proporcione el máximo valor para ti, para el propio equipo y para tus usuarios, por ello os ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que se convierta en vuestro principal aliado.</p>
 		<div class="items style3 small onscroll-fade-in">
 			{%- for item in pagination.items %}
 			<section>
-				<span class="icon style2 major fa-{{ item.fa }}"></span>
+				<i class="icon solid style2 major fa-{{ item.fa }}"></i>
 				<h3>{{ item.title }}</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+				<p>{{ item.text }}</p>
 			</section>
 			{% endfor -%}
 		</div>
 	</div>
-</section> -->
+</section>

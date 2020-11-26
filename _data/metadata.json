@@ -3,20 +3,11 @@
   "short": "Fricolab.",
   "claim": "Somos arquitectos de nubes.",
   "url": "https://fricolab.com/",
-  "description": "Mejoramos la calidad de tus servicios adoptando estrategias y prácticas de desarrollo de software orientadas a la nube.",
+  "description": "Mejoramos la calidad de tus servicios adoptando estrategias, herramientas y prácticas de desarrollo de software orientadas a la nube.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
-  },
-  "jsonfeed": {
-    "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
-  },
-  "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
   }
 }
