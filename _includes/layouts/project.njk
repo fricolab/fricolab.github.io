@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-page
+---
+
+<body class="is-preload">
+
+
+  <section class="wrapper style1">
+  
+    <div class="inner">
+      <div class="index align-left">
+        <h1>{{ title }}</h1>
+        <section>
+          <header>
+          	<ul class="actions">
+							<li><a href="/" class="button primary small">VOLVER</a></li>
+						</ul>
+          </header>
+          <div class="content">
+            <header>
+              <p>{{ description | safe }}</p>
+            </header>
+            <span class="image right">
+              <img src="{{ '/images/gallery/fulls/' + image | url }}" />
+            </span>
+            {{ content | safe }}
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>

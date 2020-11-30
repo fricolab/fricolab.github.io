@@ -11,7 +11,7 @@ pagination:
 		<h2>{{ spotlight.data.title }}</h2>
 		<p>{{ spotlight.data.description | safe }}</p>
 		<ul class="actions stacked">
-			<!-- <li><a href="{{ spotlight.data.permalink }}" class="button">SABER MÁS</a></li> -->
+			<li><a href="{{ spotlight.data.permalink }}" class="button primary small">SABER MÁS</a></li>
 		</ul>
 	</div>
 	<div class="image">
@@ -31,14 +31,14 @@ pagination:
 		<div class="gallery style1 medium lightbox onscroll-fade-in">		
 			{%- for project in collections.project %}
 			<article>
-				<a href="images/gallery/fulls/{{ project.data.image }}" class="image">
+				<a href="{{ project.data.permalink }}" class="image">
 					<img src="images/gallery/fulls/{{ project.data.image }}" alt="" />
 				</a>
 				<div class="caption invert">
 					<h3>{{ project.data.title }}</h3>
 					<p>{{ project.data.description }}</p>
 					<ul class="actions fixed">
-						<!-- <li><span class="button small">Details</span></li> -->
+						<li><span class="button small">Más</span></li>
 					</ul>
 				</div>
 			</article>
