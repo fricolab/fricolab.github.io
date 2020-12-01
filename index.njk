@@ -1,9 +1,22 @@
 ---
 layout: layouts/home.njk
-pagination:
-  data: home.principles
-  size: 4
 ---
+
+<section class="wrapper style1 align-center">
+	<div class="inner">
+		<h2>Nuestro código fuente</h2>
+		<p>Queremos que el esfuerzo de tu equipo proporcione el máximo valor para el proyecto y para tus usuarios, por ello te ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que se conviertan en tu principal aliado.</p>
+		<div class="items style3 small onscroll-fade-in">
+			{%- for item in home.principles %}
+			<section>
+				<i class="icon solid style2 major fa-{{ item.fa }}"></i>
+				<h3>{{ item.title }}</h3>
+				<p>{{ item.text }}</p>
+			</section>
+			{% endfor -%}
+		</div>
+	</div>
+</section>
 
 {%- for spotlight in collections.spotlight %}
 <section class="spotlight style2 orient-{{ spotlight.data.orientation }} content-align-left image-position-center onscroll-image-fade-in onscroll-content-fade-left" id="first">
@@ -45,20 +58,4 @@ pagination:
 			{% endfor -%}
 		</div>
 
-</section>
-
-<section class="wrapper style1 align-center">
-	<div class="inner">
-		<h2>Nuestro código fuente</h2>
-		<p>Queremos que el esfuerzo de tu equipo proporcione el máximo valor para ti, para el propio equipo y para tus usuarios, por ello os ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que se convierta en vuestro principal aliado.</p>
-		<div class="items style3 small onscroll-fade-in">
-			{%- for item in pagination.items %}
-			<section>
-				<i class="icon solid style2 major fa-{{ item.fa }}"></i>
-				<h3>{{ item.title }}</h3>
-				<p>{{ item.text }}</p>
-			</section>
-			{% endfor -%}
-		</div>
-	</div>
 </section>

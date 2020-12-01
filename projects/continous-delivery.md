@@ -6,3 +6,13 @@ image: 05.jpg
 tags: project
 permalink: entrega-continua.html
 ---
+
+Alinear las expectativas y necesidades de los equipos de desarrollo y operaciones es fundamental. Mediante la entrega continua los ciclos de entrega de valor permiten, en iteraciones múltiples, resolver los retos tecnicos y funcionales de manera incremental.
+
+- Integración de múltiples repositorios de software en un **único proceso de entrega** orquestado.
+
+- Adaptación de los procesos heterogéneos de los distintos proveedores IT a una solución CI/CD integrada con el proveedor de servicios cloud mediante **Azure DevOps**.
+
+- **Migración** sin pérdida de servicio desde las aplicaciones web y de escritorio heredadas a un modelo completo de gestión de la información en la nube.
+
+- **Formación y acompañamiento** de los equipos técnicos al nuevo paradigma de computación en la nube.
