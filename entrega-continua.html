@@ -8,7 +8,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-	  <meta name="google-site-verification" content="Mw_RsimrQbPH6AqapBVpWlJxCpxeVlVS3ti8HRrIPds" />
+	  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+		<meta name="google-site-verification" content="Mw_RsimrQbPH6AqapBVpWlJxCpxeVlVS3ti8HRrIPds" />
 		<meta name="description" content="Mejoramos la calidad de tus servicios adoptando estrategias, herramientas y prácticas de desarrollo de software orientadas a la nube.">
 
 
@@ -97,7 +98,27 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+			<script>
+			window.cookieconsent.initialise({
+				"palette": {
+					"popup": {
+						"background": "#eaf7f7",
+						"text": "#5c7291"
+					},
+					"button": {
+						"background": "#56cbdb",
+						"text": "#ffffff"
+					}
+				},
+				"content": {
+					"message": "Este sitio web utiliza cookies para garantizarte una mejor experiencia de usuario",
+					"dismiss": "OK",
+					"link": "Quiero saber más",
+					"href": "/cookies.html"
+				}
+			});
+			</script>
 	</body>
 </html>
 
