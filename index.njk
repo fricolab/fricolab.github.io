@@ -19,7 +19,7 @@ layout: layouts/home.njk
 </section>
 
 {%- for spotlight in collections.spotlight %}
-<section class="spotlight style2 orient-{{ spotlight.data.orientation }} content-align-left image-position-center onscroll-content-fade-left" id="first">
+<section class="spotlight style2 orient-{{ spotlight.data.orientation }} content-align-left image-position-center" id="first">
 	<div class="content">
 		<h2>{{ spotlight.data.title }}</h2>
 		<p>{{ spotlight.data.description | safe }}</p>
@@ -28,7 +28,7 @@ layout: layouts/home.njk
 		</ul>
 	</div>
 	<div class="image">
-		<img src="images/{{ spotlight.data.image }}.png" alt="" />
+		<img alt="imagen descriptiva" src="images/{{ spotlight.data.image }}.png" alt="" />
 	</div>
 </section>
 {% endfor -%}
@@ -45,7 +45,7 @@ layout: layouts/home.njk
 			{%- for project in collections.project %}
 			<article>
 				<a href="{{ project.data.permalink }}" class="image">
-					<img src="images/gallery/fulls/{{ project.data.image }}" alt="" />
+					<img alt="icono descriptivo" src="images/gallery/fulls/{{ project.data.image }}" alt="" />
 				</a>
 				<div class="caption invert">
 					<h3>{{ project.data.title }}</h3>
