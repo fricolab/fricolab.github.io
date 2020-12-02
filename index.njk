@@ -6,7 +6,7 @@ layout: layouts/home.njk
 	<div class="inner">
 		<h2>Nuestro código fuente</h2>
 		<p>Queremos que el esfuerzo de tu equipo proporcione el máximo valor para el proyecto y para tus usuarios, por ello te ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que se conviertan en tu principal aliado.</p>
-		<div class="items style3 small onscroll-fade-in">
+		<div class="items style3 small">
 			{%- for item in home.principles %}
 			<section>
 				<i class="icon solid style2 major fa-{{ item.fa }}"></i>
@@ -19,7 +19,7 @@ layout: layouts/home.njk
 </section>
 
 {%- for spotlight in collections.spotlight %}
-<section class="spotlight style2 orient-{{ spotlight.data.orientation }} content-align-left image-position-center onscroll-image-fade-in onscroll-content-fade-left" id="first">
+<section class="spotlight style2 orient-{{ spotlight.data.orientation }} content-align-left image-position-center onscroll-content-fade-left" id="first">
 	<div class="content">
 		<h2>{{ spotlight.data.title }}</h2>
 		<p>{{ spotlight.data.description | safe }}</p>
@@ -41,7 +41,7 @@ layout: layouts/home.njk
 	</div>
 
 		
-		<div class="gallery style1 medium lightbox onscroll-fade-in">		
+		<div class="gallery style1 medium lightbox">		
 			{%- for project in collections.project %}
 			<article>
 				<a href="{{ project.data.permalink }}" class="image">
