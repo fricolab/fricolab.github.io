@@ -9,7 +9,14 @@ title: Fricolab - Arquitectos de Nubes
 		<title>{{ title or metadata.title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i" >
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-8YWHYQD5B4');
+		</script>
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i&display=swap" >
 		<link rel="preload" as="style" href="{{ '/assets/css/fontawesome-all.min.css' | url }}" >
 		<link rel="preload" as="font" href="{{ '/assets/webfonts/fa-regular-400.woff2' | url }}" crossorigin>
 		<link rel="preload" as="font" href="{{ '/assets/webfonts/fa-brands-400.woff2' | url }}" crossorigin>
@@ -20,7 +27,6 @@ title: Fricolab - Arquitectos de Nubes
 		<meta name="google-site-verification" content="Mw_RsimrQbPH6AqapBVpWlJxCpxeVlVS3ti8HRrIPds" />
 		<meta name="description" content="{{ metadata.description }}">
 
-
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="{{ metadata.url }}" />
 		<meta property="og:title" content="{{ metadata.title }}" />
@@ -29,13 +35,6 @@ title: Fricolab - Arquitectos de Nubes
 	  
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YWHYQD5B4"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-8YWHYQD5B4');
-		</script>
 	</head>
 
 	{{ content | safe }}
