@@ -1,5 +1,5 @@
 ---
-layout: layouts/spotlight.njk
+layout: layouts/page.njk
 title: Los servicios cloud más innovadores
 description: "Nuestros arquitectos de soluciones te ayudarán a integrar los últimos servicios y productos cloud disponibles.<br>Te proporcionamos todo el apoyo que necesitas para adoptar los servicios de los principales proveedores comerciales, como <b>Amazon Web Services, Microsoft Azure, Google Cloud Computing o Red Hat Openshift</b>.<br>Crearemos un plan de gobierno y gestión de la nube que te ayudará a maximizar el rendimiento de tu inversión en infraestructura, evitando costes innecesarios y ajustando la capacidad de tus servicios basándonos en el uso real."
 orientation: right

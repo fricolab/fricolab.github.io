@@ -1,5 +1,5 @@
 ---
-layout: layouts/project.njk
+layout: layouts/page.njk
 title: Arquitectura para Big Data
 description: "Diseño del modelo de ingesta, procesado y explotación de datos en Azure Databricks. Integración con el equipo de científicos de datos."
 image: 03.png

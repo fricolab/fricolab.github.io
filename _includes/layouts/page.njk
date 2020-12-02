@@ -1,6 +1,5 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-page
 ---
 
 <body class="is-preload">
@@ -18,11 +17,18 @@ templateClass: tmpl-page
 						</ul>
           </header>
           <div class="content">
+            {% if tags=="project" %}  
             <header>
               <p>{{ description | safe }}</p>
             </header>
+            {% endif %}
             <span class="image right">
-              <img alt="icono descriptivo" src="{{ '/images/gallery/fulls/' + image | url }}" />
+              {% if tags=="project" %}
+              <img alt="icono descriptivo" src="{{ '/images/gallery/thumbs/' + image | url }}" />
+              {% endif %}
+              {% if tags=="spotlight" %}
+              <img alt="imagen descriptiva" src="{{ '/images/' + image + '.png' | url }}" />
+              {% endif %}
             </span>
             {{ content | safe }}
           </div>

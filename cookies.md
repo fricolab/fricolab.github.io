@@ -1,10 +1,8 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 title: Política de Cookies y Privacidad
 permalink: /cookies.html
 ---
-# Política de Cookies y Privacidad
-
 Una cookie es una pequeña información enviada por un sitio web y almacenada en el navegador del usuario, de manera que el sitio web puede consultar la actividad previa del usuario.
 
 En este sitio web se utilizan las siguientes cookies que se detallan a continuación:

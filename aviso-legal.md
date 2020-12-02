@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 title: Aviso Legal
 permalink: /aviso-legal.html
 ---
