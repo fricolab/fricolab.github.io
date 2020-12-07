@@ -18,5 +18,4 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.addPlugin(lazyImagesPlugin);
 
-  }
 };
