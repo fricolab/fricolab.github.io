@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://fricolab.com/404.html</loc>
+  </url>
+  <url>
     <loc>https://fricolab.com/aviso-legal.html</loc>
+  </url>
+  <url>
+    <loc>https://fricolab.com/contacto.html</loc>
+  </url>
+  <url>
+    <loc>https://fricolab.com/cookies.html</loc>
   </url>
   <url>
     <loc>https://fricolab.com/</loc>
   </url>
   <url>
-    <loc>https://fricolab.com/contacto.html</loc>
+    <loc>https://fricolab.com/autoescalado.html</loc>
+  </url>
+  <url>
+    <loc>https://fricolab.com/big-data.html</loc>
+  </url>
+  <url>
+    <loc>https://fricolab.com/gobierno-cloud.html</loc>
+  </url>
+  <url>
+    <loc>https://fricolab.com/entrega-continua.html</loc>
+  </url>
+  <url>
+    <loc>https://fricolab.com/microservicios.html</loc>
   </url>
   <url>
     <loc>https://fricolab.com/servicios-cloud.html</loc>
@@ -17,26 +38,5 @@
   </url>
   <url>
     <loc>https://fricolab.com/aplicaciones-web.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/404.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/gobierno-cloud.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/cookies.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/autoescalado.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/big-data.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/entrega-continua.html</loc>
-  </url>
-  <url>
-    <loc>https://fricolab.com/microservicios.html</loc>
   </url>
 </urlset>
