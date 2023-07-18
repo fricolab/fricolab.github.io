@@ -27,7 +27,7 @@
 		<link rel="preload" href=/webfonts/fa-brands-400.woff2 as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href=/webfonts/fa-solid-900.woff2 as="font" type="font/woff2" crossorigin>
 
-		<link rel="stylesheet" type="text/css" href="/assets/main.css?1689674786368" />
+		<link rel="stylesheet" type="text/css" href="/assets/main.css?1689681250334" />
 	  
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YWHYQD5B4"></script>
@@ -71,13 +71,17 @@
 <br>Puedes eliminar las cookies que hayas aceptado previamente pulsando el siguiente botón:</p>
 
 <!-- Inicio de fragmento de código de HubSpot -->
-<button type="button" class="button primary small" id="hs_remove_cookie_button"
-  onClick="(function(){
-    var _hsp = window._hsp = window._hsp || [];
-    _hsp.push(['revokeCookieConsent']);
-  })()"
+<button type="button" id="hs_show_banner_button"
+style="background-color: #425b76; border: 1px solid #425b76;
+       border-radius: 3px; padding: 10px 16px; text-decoration: none; color: #fff;
+       font-family: inherit; font-size: inherit; font-weight: normal; line-height: inherit;
+       text-align: left; text-shadow: none;"
+onClick="(function(){
+  var _hsp = window._hsp = window._hsp || [];
+  _hsp.push(['showBanner']);
+})()"
 >
-  Eliminar cookies
+Configuración de cookies
 </button>
 
 <!-- Fin de fragmento de código de HubSpot -->
@@ -112,7 +116,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/main.js?1689674786368"></script>
+			<script src="assets/main.js?1689681250334"></script>
 			<!-- Start of HubSpot Embed Code -->
 			<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/140395993.js"></script>
 			<!-- End of HubSpot Embed Code -->
