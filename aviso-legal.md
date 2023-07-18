@@ -53,4 +53,4 @@ FricolaB podrá modificar en cualquier momento las condiciones aquí determinada
 
 **12.LEGISLACIÓN APLICABLE Y JURISDICCIÓN:**
 
-La relación entre FricolaB y el USUARIO se regirá por la normativa española vigente y cualquier controversia se someterá a los Juzgados y tribunales de la ciudad de A Coruña.
+De surgir cualquier controversia en relación a la interpretación y/o a la aplicación de estas Condiciones las partes someterán sus conflictos a la jurisdicción ordinaria sometiéndose a los jueces y tribunales que correspondan conforme a derecho.

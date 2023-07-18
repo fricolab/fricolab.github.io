@@ -17,5 +17,4 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/compiled-assets': 'assets' });
   
   eleventyConfig.addPlugin(lazyImagesPlugin);
-
 };

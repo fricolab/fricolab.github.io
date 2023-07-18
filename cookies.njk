@@ -20,13 +20,17 @@ permalink: /cookies.html
 <br>Puedes eliminar las cookies que hayas aceptado previamente pulsando el siguiente botón:</p>
 
 <!-- Inicio de fragmento de código de HubSpot -->
-<button type="button" class="button primary small" id="hs_remove_cookie_button"
-  onClick="(function(){
-    var _hsp = window._hsp = window._hsp || [];
-    _hsp.push(['revokeCookieConsent']);
-  })()"
+<button type="button" id="hs_show_banner_button"
+style="background-color: #425b76; border: 1px solid #425b76;
+       border-radius: 3px; padding: 10px 16px; text-decoration: none; color: #fff;
+       font-family: inherit; font-size: inherit; font-weight: normal; line-height: inherit;
+       text-align: left; text-shadow: none;"
+onClick="(function(){
+  var _hsp = window._hsp = window._hsp || [];
+  _hsp.push(['showBanner']);
+})()"
 >
-  Eliminar cookies
+Configuración de cookies
 </button>
 
 <!-- Fin de fragmento de código de HubSpot -->
