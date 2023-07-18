@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Entrega continua
-description: "Diseño del flujo de entrega continua para soluciones de software basadas en servicios cloud. Prácticas ágiles basadas en el control de versiones centralizado y la integración con herramientas DevOps."
+description: "Diseño del flujo de entrega continua para soluciones de software basadas en servicios cloud."
 image: 05.png
 tags: project
 permalink: entrega-continua.html

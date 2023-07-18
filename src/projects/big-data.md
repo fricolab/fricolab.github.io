@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Arquitectura para Big Data
-description: "Diseño del modelo de ingesta, procesado y explotación de datos en Azure Databricks. Integración con el equipo de científicos de datos."
+description: "Diseño del modelo de ingesta, procesado y explotación de datos en Data Lake House."
 image: 03.png
 tags: project
 permalink: big-data.html
