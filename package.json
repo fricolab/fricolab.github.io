@@ -30,7 +30,7 @@
     "sass-loader": "10.1.0",
     "serve": "^14.2.0",
     "terser-webpack-plugin": "5.0.3",
-    "webpack": "5.10.0",
+    "webpack": "5.76.0",
     "webpack-cli": "5.1.4",
     "webpack-merge": "5.4.0"
   }
