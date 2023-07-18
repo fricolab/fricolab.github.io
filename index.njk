@@ -5,13 +5,13 @@ layout: layouts/home.njk
 <section class="wrapper style1 align-center">
 	<div class="inner">
 		<h2>Nuestro código fuente</h2>
-		<p>Queremos que el esfuerzo de tu equipo proporcione el máximo valor para el proyecto y para tus usuarios, por ello te ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que se conviertan en tu principal aliado.</p>
+		<h4>Queremos que el esfuerzo de tu equipo proporcione el máximo valor para el proyecto y para tus usuarios, por ello te ayudamos a gestionar la infraestructura y los servicios cloud para conseguir que se conviertan en tu principal aliado.</h4>
 		<div class="items style3 small">
 			{%- for item in home.principles %}
 			<section>
 				<i class="icon solid style2 major fa-{{ item.fa }}"></i>
 				<h3>{{ item.title }}</h3>
-				<p>{{ item.text }}</p>
+				<h4>{{ item.text }}</h4>
 			</section>
 			{% endfor -%}
 		</div>
@@ -21,8 +21,8 @@ layout: layouts/home.njk
 {%- for spotlight in collections.spotlight %}
 <section class="spotlight style2 orient-{{ spotlight.data.orientation }} content-align-left image-position-center" id="first">
 	<div class="content">
-		<h2>{{ spotlight.data.title }}</h2>
-		<p>{{ spotlight.data.description | safe }}</p>
+		<h3>{{ spotlight.data.title }}</h3>
+		<h5>{{ spotlight.data.description | safe }}</h5>
 		<ul class="actions stacked">
 			<li><a href="{{ spotlight.data.permalink }}" class="button primary small">SABER MÁS</a></li>
 		</ul>
@@ -37,7 +37,7 @@ layout: layouts/home.njk
 <section class="wrapper style1 align-center" id="projects">
 	<div class="inner">
 		<h2>Algunos de nuestros proyectos</h2>
-		<p>Hemos trabajado con los <b>líderes de diferentes sectores</b> como educacion, banca, deporte, ONGs, salud o energía y también con diferentes administraciones públicas, ayudando a desarrollar <b>soluciones de arquitectura de software, big data y administración de infraestructuras digitales</b>.</p>
+		<h4>Hemos trabajado con los <b>líderes de diferentes sectores</b> como educacion, banca, deporte, ONGs, salud o energía y también con diferentes administraciones públicas, ayudando a desarrollar <b>soluciones de arquitectura de software, big data y administración de infraestructuras digitales</b>.</h4>
 	</div>
 
 		
@@ -48,8 +48,8 @@ layout: layouts/home.njk
 					<img alt="icono descriptivo" src="images/gallery/fulls/{{ project.data.image }}" alt="" />
 				</a>
 				<div class="caption invert">
-					<h3>{{ project.data.title }}</h3>
-					<p>{{ project.data.description }}</p>
+					<h5>{{ project.data.title }}</h5>
+					<h5>{{ project.data.description }}</5>
 					<ul class="actions fixed">
 						<li><span class="button small">Más</span></li>
 					</ul>
