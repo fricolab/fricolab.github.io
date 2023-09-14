@@ -1,5 +1,4 @@
 // Makes Sass faster!
-const Fiber = require('fibers');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 module.exports = {
@@ -31,7 +30,7 @@ module.exports = {
             options: {
               implementation: require('sass'),
               sassOptions: {
-                fiber: Fiber,
+                fiber: false,
                 outputStyle: 'expanded',
               },
             },
