@@ -7,6 +7,9 @@ title: Fricolab - Arquitectos de Nubes
 <html lang="es">
 	<head>
 		<title>{{ title or metadata.title }}</title>
+		{% if noindex %}
+  		<meta name="robots" content="noindex, nofollow">
+  		{% endif %}
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta property="og:type" content="website" />
@@ -16,7 +19,7 @@ title: Fricolab - Arquitectos de Nubes
 		<meta property="og:image" content="{{ metadata.url }}images/logo_alt.png" />
 		<meta name="google-site-verification" content="Mw_RsimrQbPH6AqapBVpWlJxCpxeVlVS3ti8HRrIPds" />
 		<meta name="description" content="{{ metadata.description }}">
-		
+
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
@@ -31,7 +34,7 @@ title: Fricolab - Arquitectos de Nubes
 		<link rel="preload" href={{ '/webfonts/fa-solid-900.woff2' | url }} as="font" type="font/woff2" crossorigin>
 
 		<link rel="stylesheet" type="text/css" href="{{ '/assets/main.css' | url }}?{{ cacheBust.mainCss }}" />
-	  
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YWHYQD5B4"></script>
 	</head>
