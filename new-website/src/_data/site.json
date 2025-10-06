@@ -1,0 +1,228 @@
+{
+    "title": "Fricolab - Transformación Cloud para Empresas",
+    "description": "Especialistas en Kubernetes, Cloud Native y Observabilidad. Reducimos costes cloud hasta 60%",
+    "contact": {
+        "email": "david@fricolab.com",
+        "phone": "+34 605 669 168",
+        "location": "A Coruña"
+    },
+    "hero": {
+        "badge": "Cloud Native · Kubernetes · Observabilidad",
+        "title": "Reducimos sus costes cloud hasta un 60% mientras aceleramos la entrega de valor",
+        "subtitle": "Transformamos infraestructuras complejas en plataformas cloud-native eficientes. Especialistas en Kubernetes, multi-cloud y observabilidad para organizaciones que buscan excelencia operacional.",
+        "stats": [
+            {
+                "number": "60%",
+                "label": "Reducción media de costes cloud"
+            },
+            {
+                "number": "75%",
+                "label": "Menos tiempo resolviendo incidentes"
+            },
+            {
+                "number": "10x",
+                "label": "Más rápido provisionar entornos"
+            }
+        ]
+    },
+    "technologies": [
+        "Kubernetes",
+        "AWS",
+        "Google Cloud",
+        "Azure",
+        "Grafana",
+        "Terraform"
+    ],
+    "problems": [
+        {
+            "icon": "fa-solid fa-sack-dollar",
+            "title": "Costes Cloud Fuera de Control",
+            "description": "Facturas que crecen mensualmente sin visibilidad ni justificación clara del gasto"
+        },
+        {
+            "icon": "fa-solid fa-clock",
+            "title": "Time-to-Market Lento",
+            "description": "Semanas para provisionar entornos, deployments manuales que frenan la innovación"
+        },
+        {
+            "icon": "fa-solid fa-fire",
+            "title": "Incidentes Recurrentes",
+            "description": "Falta de visibilidad que hace que problemas críticos se descubran demasiado tarde"
+        },
+        {
+            "icon": "fa-solid fa-users",
+            "title": "Equipo Sobrecargado",
+            "description": "Desarrolladores dedicando tiempo a infraestructura en vez de crear valor"
+        }
+    ],
+    "services": [
+        {
+            "icon": "fa-solid fa-cloud",
+            "title": "Kubernetes & Cloud Native",
+            "description": "Transformamos su infraestructura con Kubernetes para reducir costes hasta 60% mientras mejora disponibilidad y velocidad de entrega.",
+            "benefits": [
+                "<strong>40-60% reducción</strong> de costes cloud mediante autoescalado inteligente",
+                "<strong>De semanas a horas</strong> en provisionar entornos completos",
+                "<strong>99.99% uptime</strong> con arquitecturas multi-zona automáticas",
+                "<strong>Multi-cloud</strong> en AWS, GCP, Azure o Hetzner sin vendor lock-in"
+            ],
+            "tech": [
+                "Kubernetes",
+                "EKS/GKE/AKS",
+                "ArgoCD",
+                "Helm"
+            ],
+            "featured": true
+        },
+        {
+            "icon": "fa-solid fa-chart-line",
+            "title": "Observabilidad & Monitorización",
+            "description": "Implementamos Grafana para detectar y resolver problemas antes de que impacten su negocio, reduciendo MTTR hasta 75%.",
+            "benefits": [
+                "<strong>Detección proactiva</strong> de anomalías antes de outages",
+                "<strong>60-75% reducción</strong> en tiempo de resolución de incidentes",
+                "<strong>90% menos</strong> falsas alarmas con alerting inteligente",
+                "<strong>Visibilidad completa</strong> de métricas técnicas y de negocio"
+            ],
+            "tech": [
+                "Grafana",
+                "Prometheus",
+                "Loki",
+                "Tempo"
+            ],
+            "featured": false
+        },
+        {
+            "icon": "fa-solid fa-gears",
+            "title": "GitOps & Automatización",
+            "description": "Automatizamos completamente deployments con GitOps, garantizando reproducibilidad y eliminando errores manuales.",
+            "benefits": [
+                "<strong>Zero-touch deployments</strong> automáticos y auditables",
+                "<strong>Rollbacks instantáneos</strong> en caso de problemas",
+                "<strong>Compliance garantizado</strong> con audit trail completo",
+                "<strong>Infraestructura como código</strong> con Terraform versionado"
+            ],
+            "tech": [
+                "Terraform",
+                "ArgoCD",
+                "FluxCD",
+                "GitLab CI"
+            ],
+            "featured": false
+        },
+        {
+            "icon": "fa-solid fa-globe",
+            "title": "Estrategia Multi-Cloud",
+            "description": "Diseñamos arquitecturas multi-cloud que optimizan costes y evitan vendor lock-in mientras maximizan resiliencia.",
+            "benefits": [
+                "<strong>Flexibilidad total</strong> para cambiar o combinar providers",
+                "<strong>Optimización de costes</strong> usando el proveedor óptimo por workload",
+                "<strong>Disaster recovery</strong> cross-cloud automático",
+                "<strong>Negociación mejorada</strong> con vendors al tener opciones"
+            ],
+            "tech": [
+                "AWS",
+                "GCP",
+                "Azure",
+                "Hetzner"
+            ],
+            "featured": false
+        }
+    ],
+    "roi": [
+        {
+            "number": "3-6",
+            "unit": "meses",
+            "description": "Retorno de inversión típico mediante reducción de costes y aumento de productividad"
+        },
+        {
+            "number": "€50K+",
+            "unit": "anuales",
+            "description": "Ahorro medio por cliente en facturas de cloud mediante optimización"
+        },
+        {
+            "number": "200+",
+            "unit": "horas",
+            "description": "Tiempo recuperado mensualmente que su equipo dedica a crear valor"
+        },
+        {
+            "number": "99.99%",
+            "unit": "uptime",
+            "description": "Disponibilidad garantizada que evita pérdidas por downtime"
+        }
+    ],
+    "process": [
+        {
+            "number": "01",
+            "title": "Análisis & Auditoría",
+            "description": "Evaluación completa de su infraestructura actual, identificando quick wins y oportunidades de optimización",
+            "deliverables": [
+                "Informe de costes detallado",
+                "Análisis de arquitectura",
+                "Roadmap priorizado"
+            ]
+        },
+        {
+            "number": "02",
+            "title": "Diseño & Planificación",
+            "description": "Arquitectura cloud-native personalizada con estimaciones precisas de ROI y timeline de implementación",
+            "deliverables": [
+                "Arquitectura técnica detallada",
+                "Plan de migración sin downtime",
+                "Proyección de ahorros"
+            ]
+        },
+        {
+            "number": "03",
+            "title": "Implementación",
+            "description": "Ejecución por fases con entregables tangibles cada sprint, minimizando riesgo y maximizando valor incremental",
+            "deliverables": [
+                "Deployments incrementales",
+                "Testing exhaustivo",
+                "Documentación completa"
+            ]
+        },
+        {
+            "number": "04",
+            "title": "Optimización & Soporte",
+            "description": "Mejora continua con monitorización 24/7, optimizaciones proactivas y soporte para su equipo",
+            "deliverables": [
+                "Monitorización continua",
+                "Optimizaciones mensuales",
+                "Training del equipo"
+            ]
+        }
+    ],
+    "whyUs": [
+        {
+            "icon": "fa-solid fa-bullseye",
+            "title": "Enfoque en Negocio",
+            "description": "No solo implementamos tecnología: resolvemos problemas de negocio con ROI medible"
+        },
+        {
+            "icon": "fa-solid fa-trophy",
+            "title": "Experiencia Contrastada",
+            "description": "Clusters en producción gestionando millones de requests diarios para empresas de todos los tamaños"
+        },
+        {
+            "icon": "fa-solid fa-bolt",
+            "title": "Implementación Ágil",
+            "description": "Entregamos valor desde la primera semana con metodología iterativa y resultados tangibles"
+        },
+        {
+            "icon": "fa-solid fa-shield-halved",
+            "title": "Partner de Largo Plazo",
+            "description": "No desaparecemos después del deploy: optimización continua y soporte proactivo"
+        },
+        {
+            "icon": "fa-solid fa-wrench",
+            "title": "Stack Completo",
+            "description": "Expertise en todo el ecosistema CNCF y principales cloud providers"
+        },
+        {
+            "icon": "fa-solid fa-chart-simple",
+            "title": "Resultados Garantizados",
+            "description": "Compromisos claros de reducción de costes y mejora de performance"
+        }
+    ]
+}

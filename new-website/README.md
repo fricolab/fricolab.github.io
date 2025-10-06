@@ -1,6 +1,6 @@
-# Fricolab - Nuevo Sitio Web Corporativo
+# Fricolab - Sitio Web Corporativo
 
-Sitio web profesional rediseñado para atraer a ejecutivos de empresas de IT, marketing y data. Enfocado en resultados de negocio, ROI y conversión.
+Sitio web profesional rediseñado construido con **Eleventy (11ty)** para atraer a ejecutivos de empresas de IT, marketing y data. Enfocado en resultados de negocio, ROI y conversión.
 
 ## 📋 Características Principales
 
@@ -60,6 +60,8 @@ Sitio web profesional rediseñado para atraer a ejecutivos de empresas de IT, ma
 
 ## 🎨 Tecnologías Utilizadas
 
+- **Eleventy (11ty)** - Generador de sitios estáticos rápido y flexible
+- **Nunjucks** - Motor de plantillas para contenido dinámico
 - **HTML5** - Estructura semántica y accesible
 - **CSS3** - Diseño moderno con variables CSS y grid/flexbox
 - **JavaScript Vanilla** - Interactividad sin dependencias
@@ -67,25 +69,54 @@ Sitio web profesional rediseñado para atraer a ejecutivos de empresas de IT, ma
 
 ## 🚀 Cómo Usar
 
-### Opción 1: Abrir directamente
+### Instalación
 
-Simplemente abre `index.html` en tu navegador web.
-
-### Opción 2: Servidor local (recomendado)
+Primero, instala las dependencias:
 
 ```bash
-# Con Python 3
 cd new-website
-python -m http.server 8000
-
-# Con Node.js (npx)
-npx serve
-
-# Con PHP
-php -S localhost:8000
+npm install
 ```
 
-Luego visita: `http://localhost:8000`
+### Desarrollo
+
+Inicia el servidor de desarrollo con hot-reload:
+
+```bash
+npm start
+```
+
+El sitio estará disponible en: `http://localhost:8080`
+
+### Producción
+
+Para generar el sitio estático optimizado:
+
+```bash
+npm run build
+```
+
+Los archivos generados estarán en la carpeta `_site/`
+
+### Despliegue a GitHub Pages
+
+Para desplegar el sitio a GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+Este comando:
+
+1. Limpia la carpeta `_site/`
+2. Construye el sitio
+3. Despliega a la rama `gh-pages` de tu repositorio GitHub
+
+**Requisitos previos:**
+
+- Tener un repositorio Git configurado
+- Tener permisos de push al repositorio
+- GitHub Pages configurado en la configuración del repositorio
 
 ## 📱 Características Responsivas
 
@@ -139,9 +170,42 @@ El diseño incluye múltiples puntos de conversión:
 
 ## 🔧 Personalización
 
+### Editar Contenido
+
+**Todo el contenido del sitio está centralizado en un único archivo JSON para facilitar su edición:**
+
+📄 `src/_data/site.json`
+
+Este archivo contiene:
+
+- **Hero section**: Título, subtítulo, estadísticas
+- **Servicios**: 4 servicios con beneficios y tecnologías
+- **Problemas**: Los 4 pain points principales
+- **ROI**: Métricas de retorno de inversión
+- **Proceso**: 4 fases del proceso
+- **Casos de éxito**: 3 casos con métricas
+- **Por qué Fricolab**: 6 diferenciadores
+- **Contacto**: Email, teléfono, ubicación
+
+**Para editar cualquier texto:**
+
+1. Abre `src/_data/site.json`
+2. Modifica los valores que desees
+3. Ejecuta `npm run build` o `npm start` (con hot-reload)
+4. Los cambios se reflejan automáticamente
+
+**Ejemplo - Cambiar el título principal:**
+
+```json
+"hero": {
+  "title": "TU NUEVO TÍTULO AQUÍ",
+  ...
+}
+```
+
 ### Colores
 
-Edita las variables CSS en `styles.css`:
+Edita las variables CSS en `src/assets/css/styles.css`:
 
 ```css
 :root {
@@ -151,10 +215,6 @@ Edita las variables CSS en `styles.css`:
   /* ... */
 }
 ```
-
-### Contenido
-
-Todo el contenido está en `index.html` y puede modificarse fácilmente.
 
 ### Formulario
 
@@ -200,10 +260,22 @@ El formulario actualmente muestra un alert. Para producción:
 
 ```
 new-website/
-├── index.html          # Página principal
-├── styles.css          # Estilos completos
-├── script.js           # JavaScript interactividad
-└── README.md           # Este archivo
+├── .eleventy.js              # Configuración de Eleventy
+├── package.json              # Dependencias del proyecto
+├── README.md                 # Este archivo
+├── src/
+│   ├── index.njk             # Página principal (template Nunjucks)
+│   ├── _includes/
+│   │   └── layouts/
+│   │       └── base.njk      # Layout base del sitio
+│   ├── _data/                # Datos globales (opcional)
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── styles.css    # Estilos principales
+│   │   └── js/
+│   │       └── script.js     # JavaScript interactividad
+│   └── images/               # Imágenes y recursos
+└── _site/                    # Sitio generado (gitignored)
 ```
 
 ## 🎓 Créditos
@@ -216,3 +288,14 @@ Diseñado para Fricolab con enfoque en:
 - ROI y resultados medibles
 
 ---
+
+## 🔄 Eleventy vs HTML Estático
+
+Este sitio usa Eleventy para:
+
+- **Templating con Nunjucks**: Reutilización de layouts y componentes
+- **Hot-reload en desarrollo**: Cambios en tiempo real
+- **Optimización automática**: Minificación y optimización de assets
+- **Fácil extensión**: Agregar nuevas páginas sin duplicar código
+
+**Nota**: Este es un sitio estático generado. Para funcionalidad completa del formulario y analytics, necesitarás configurar servicios backend.
