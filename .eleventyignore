@@ -11,5 +11,4 @@ package.json
 package-lock.json
 webpack.config\*.js
 .eleventy.js
-SEO-EVALUATION.md
-new-website/
+DEPLOYMENT.md

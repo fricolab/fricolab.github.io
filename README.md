@@ -74,7 +74,6 @@ Sitio web profesional rediseñado construido con **Eleventy (11ty)** para atraer
 Primero, instala las dependencias:
 
 ```bash
-cd new-website
 npm install
 ```
 
@@ -259,7 +258,7 @@ El formulario actualmente muestra un alert. Para producción:
 ## 📄 Estructura de Archivos
 
 ```
-new-website/
+/
 ├── .eleventy.js              # Configuración de Eleventy
 ├── package.json              # Dependencias del proyecto
 ├── README.md                 # Este archivo
