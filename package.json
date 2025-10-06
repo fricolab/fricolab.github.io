@@ -6,7 +6,8 @@
         "start": "eleventy --serve",
         "build": "eleventy",
         "clean": "rimraf _site",
-        "deploy": "npm run clean && npm run build && gh-pages -d _site",
+        "predeploy": "npm run clean && npm run build && touch _site/.nojekyll",
+        "deploy": "gh-pages -d _site -t",
         "serve": "serve ./_site/"
     },
     "keywords": [
