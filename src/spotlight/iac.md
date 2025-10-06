@@ -1,15 +1,65 @@
 ---
 layout: layouts/page.njk
-title: Infraestructura como código
-description: "Somos expertos en el desarrollo de procesos de aprovisionamiento, despliegue y configuración basados en el paradigma moderno de <b>Infraestructura como código</b>, IaC.<br>Te acompañamos en el proceso de migración al nuevo paradigma para alcanzar un <b>mayor nivel de madurez en la gestión de tu infraestructura en la nube</b> mediante la aplicación de políticas basadas en código perfectamente replicables.<br>Despliegues <b>ágiles y seguros</b> con un enfoque <b>DevOps</b> que garantizarán la portabilidad de tus aplicaciones y un modelo de entrega continua que maximice la satisfacción de tus usuarios."
-orientation: left
-image: spotlight02
+title: Infraestructura como Código & GitOps
+description: "Reduce el <b>time-to-market en un 70%</b> con infraestructura completamente automatizada.<br>Implementamos <b>Terraform y GitOps</b> para eliminar errores humanos y acelerar tu capacidad de innovación."
+orientation: right
+image: spotlight03
 tags: spotlight
-permalink: infraestructura-como-codigo.html
+permalink: iac-gitops.html
 ---
 
-Una de las principales claves en el éxito de los servicios cloud es la posibilidad de disponer de **una infraestructura dinámica, que expone interfaces programables y que permite incorporar lógicas complejas en su diseño** con un tamaño óptimo, adecuada a la carga real. Un conjunto tal de servicios y recursos exige para su correcto funcionamiento de herramientas de programación que permitan replicar entre entornos y proyectos nuestros servicios, además de la articulación de **políticas y procesos de gobierno** adaptados a tu negocio.
+## El Problema que Resolvemos
 
-Aunque todavía la nube no dispone de un sistema operativo propio, podríamos decir que las herramientas con las que diseñamos y ejecutamos los procesos de despliegue y configuración de recursos son lo más parecido. Estas herramientas de infraestructura como código (IaC) nos ayudan a **disponer en un plazo muy corto entornos de programación idénticos diseñados según nuestros estándares de calidad más ambiciosos**, así como permitir el cumplimiento de los requisitos técnicos y funcionales de nuestros proyectos.
+La infraestructura se gestiona manualmente, generando errores e inconsistencias. Los deploys son lentos y arriesgados. No hay trazabilidad de cambios. Escalar el equipo IT es costoso porque el conocimiento está en personas, no en código.
 
-En **Fricolab** trabajamos con <a href="https://www.terraform.io/">Terraform</a>, <a href="https://helm.sh">Helm</a>, <a href="https://www.ansible.com">Ansible</a> y otras muchas herramientas para diseñar entornos sólidos y replicables en todos los proveedores cloud y todas los orquestadores de contenedores como <a href="https://kubernetes.io">Kubernetes</a>, <a href="https://www.openshift.com">Openshift</a>, <a href="https://www.rancher.com">Rancher</a>, Docker Swarm y Amazon ECS.
+## Nuestra Solución
+
+Convertimos toda tu infraestructura en **código versionado y auditable**, donde los deploys se ejecutan automáticamente desde Git con validaciones y rollback instantáneo.
+
+### Beneficios para el Negocio
+
+**Time-to-market acelerado:** De semanas a horas en lanzar nuevos entornos o servicios. Acelera tu capacidad de innovación.
+
+**Eliminación de errores:** Infraestructura declarativa y reproducible. Los cambios se revisan y testean antes de aplicarse.
+
+**Escalabilidad del equipo:** Nuevos ingenieros productivos en días, no meses. El conocimiento está en código, no solo en personas.
+
+**Costes predecibles:** Infraestructura optimizada automáticamente. Elimina sobre-aprovisionamiento y gastos sorpresa.
+
+### Lo que Implementamos
+
+**Terraform Multi-Cloud:**
+
+- Gestión unificada de AWS, GCP, Azure, Cloudflare, Hetzner
+- Módulos reutilizables que aceleran nuevos proyectos
+- Cost optimization automatizada
+- Compliance como código
+
+**GitOps con ArgoCD/FluxCD:**
+
+- Deploys automáticos desde Git
+- Rollback en <60 segundos ante problemas
+- Audit trail completo de todos los cambios
+- Self-healing automático
+
+**Pipeline CI/CD Completo:**
+
+- Validación y testing automatizado
+- Security scanning pre-deploy
+- Aprobaciones configurables por entorno
+- Zero-downtime deployments
+
+### ROI Típico
+
+Organizaciones ven retorno en **4-6 meses** mediante:
+
+- **70% reducción** en time-to-deploy
+- **50% menos** incidentes por errores de configuración
+- **40% aumento** en productividad del equipo técnico
+- **Costes** de infraestructura optimizados 30-40%
+
+## Por qué Elegir Fricolab
+
+Experiencia gestionando **infraestructura multi-cloud** con Terraform para organizaciones en múltiples geografías y sectores regulados.
+
+**Resultado:** Infraestructura ágil que acelera tu negocio y reduce riesgo operacional.

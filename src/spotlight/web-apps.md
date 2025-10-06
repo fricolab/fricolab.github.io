@@ -1,15 +1,62 @@
 ---
 layout: layouts/page.njk
-title: Desarrollo de aplicaciones web
-description: "Con el modelo <a href=\"https://jamstack.org/\"><b>Jamstack</b></a> tus aplicaciones estarán diseñadas para integrarse con <b>microservicios</b> y ofrecer un modelo de entrega fácilmente escable a través de redes de distribución de contenido (CDN).<br>Ofrecemos un <b>servicio integral</b> acompañando a tu equipo IT desde el diseño de los servicios hasta la puesta en producción, garantizando la estabilidad y el correcto funcionamiento mediante herramientas modernas de <b>observabilidad, trazabilidad y monitorización</b>."
-orientation: right
-image: spotlight03
+title: Desarrollo Web Moderno
+description: "Aplicaciones web que cargan en <b>menos de 1 segundo</b> y escalan a millones de usuarios.<br>Especialistas en <b>React, Astro, Remix y WordPress enterprise</b> en Kubernetes con 99.99% disponibilidad."
+orientation: left
+image: spotlight04
 tags: spotlight
-permalink: aplicaciones-web.html
+permalink: desarrollo-web-moderno.html
 ---
 
-Además de ayudarte en el diseño y la gestión de la infraestructura también te ofrecemos un **servicio integral de diseño de aplicaciones web**. Acompañamos a tu equipo IT desde el diseño de los servicios, aplicando metodologías ágiles de prototipado como el **design thinking**, hasta la puesta en producción con un modelo de explotación madura basado en procesos automatizados de **monitorización, trazabilidad y observación** que garantizan el cumplimiento de los más altos standards de calidad en la entrega de software.
+## El Problema que Resolvemos
 
-Desarrollando tus aplicaciones web bajo el paradigma **JAMstack** estarás preparando tu proyecto para funcionar en un contexto de alta demanda y posibilitar la integración de cualquier serviciosde computación *serverless* optimizando el rendimiento y **permitiendo que te enfoques en el desarrollo de aquellos servicios que forman el corazón de tu negocio**. 
+Tu sitio web es lento y pierde conversiones. WordPress cae durante picos de tráfico. Los costes de hosting son impredecibles. Los deploys requieren downtime planificado. No hay capacidad de escalar cuando realmente lo necesitas.
 
-Una arquitectura modular y distribuida además de muchas ventajas plantea también numerosos retos. Exige que cada una de las piezas proporcione el mayor rendimiento en un contexto de alta demanda y total disponibilidad, pero también que las comunicaciones entre los distintos servicios del ecosistema y su capa de persistencia no entorpezca esta agilidad, impidiendo su crecimiento y un rendimiento adecuado, así como su interoperabilidad con los standards de la industria. Somos **especialistas en arquitecturas basadas en microservicios, y podemos ayudarte a migrar tus aplicaciones web y empresariales** a este nuevo enfoque.
+## Nuestra Solución
+
+Desarrollamos **aplicaciones web de alto rendimiento** con los frameworks más modernos, o llevamos tu WordPress existente a arquitectura enterprise con Kubernetes.
+
+### Beneficios para el Negocio
+
+**Conversión mejorada:** Cada segundo de mejora en velocidad aumenta conversión 7-10%. Sitios que cargan en <1s convierten significativamente mejor.
+
+**Disponibilidad garantizada:** 99.99% uptime significa solo 4 minutos de downtime al mes. Tu sitio siempre disponible para tus clientes.
+
+**Escalabilidad sin límites:** De 100 a 1 millón de visitantes sin cambios de arquitectura. Escala automáticamente en segundos.
+
+**Costes optimizados:** Paga solo por recursos que usas. Autoescalado que minimiza gastos en horarios de baja demanda.
+
+### Tecnologías que Usamos
+
+**Frameworks Modernos:**
+
+- **React** - Aplicaciones interactivas de alto rendimiento
+- **Astro** - Sitios ultra-rápidos que mejoran SEO y conversión
+- **Remix** - Full-stack moderno con mejor UX
+- **Eleventy** - Generación estática para máxima velocidad
+
+**WordPress Enterprise:**
+
+- **En Kubernetes** - Alta disponibilidad y autoescalado
+- **Multi-zona** - Resiliencia ante fallos
+- **Cache multi-capa** - Redis, Varnish, CDN
+- **GitOps** - Deploys sin downtime
+- **Monitorización 24/7** - Detección proactiva
+
+**Edge Computing:**
+
+- **Cloudflare Workers** - Lógica en el edge para latencias <50ms globalmente
+- **CDN Global** - Contenido servido desde ubicaciones cercanas a usuarios
+
+### ROI en Desarrollo Web
+
+- **Conversión aumentada** por velocidad mejorada
+- **Reducción 40-60%** en costes de hosting WordPress
+- **Disponibilidad** que genera confianza y retención
+- **Time-to-market** reducido con frameworks modernos
+
+## Por qué Elegir Fricolab
+
+Experiencia desarrollando **aplicaciones web de alto tráfico** y gestionando **WordPress enterprise** para organizaciones con millones de visitantes mensuales.
+
+**Resultado:** Aplicaciones web rápidas, escalables y siempre disponibles que mejoran tu bottom line.

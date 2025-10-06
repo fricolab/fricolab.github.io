@@ -1,25 +1,25 @@
 {
   "projects": {},
   "principles": [
-        {
-          "title": "Innovación",
-          "fa": "lightbulb",
-          "text": "Mantenemos un diálogo permanente con los principales agentes y centros de innovación. Garantizamos que nuestras propuestas siempre consideren las últimas tendencias de la industria."
-        },
-        {
-          "title": "Madurez",
-          "fa": "check",
-          "text": "Todos nuestros procesos están automatizados, son replicables y se basan en código, minimizando la intervención humana y los imprevistos en las operaciones de despliegue y actualización."
-        },
-        {
-          "title": "Escalabilidad",
-          "fa": "arrows-alt",
-          "text": "Nuestras soluciones y aplicaciones web nacen con el requisito imprescindible de facilitar el crecimiento de tu proyecto, implementamos estrategias de escalado horizontal y vertical adaptadas a tus requisitos."
-        },
-        {
-          "title": "Fiabilidad",
-          "fa": "link",
-          "text": "Más allá de la alta disponibilidad apostamos por un modelo de explotacion que permita disponer de todas las evidencias necesarias para identificar la causa de cualquier incidencia con el rigor del método científico."
-        }
-      ]
-}  
+    {
+      "title": "Cloud Native",
+      "fa": "cubes",
+      "text": "Especialistas en Kubernetes y el ecosistema CNCF. Diseñamos e implementamos arquitecturas cloud native que aprovechan todo el potencial de la orquestación de contenedores y los patrones modernos de desarrollo."
+    },
+    {
+      "title": "Observabilidad",
+      "fa": "chart-line",
+      "text": "Expertos en Grafana, Prometheus, Tempo y Loki. Implementamos soluciones completas de observabilidad tanto en Grafana Cloud como on-premises, proporcionando visibilidad total de tus sistemas y aplicaciones."
+    },
+    {
+      "title": "Multi-Cloud",
+      "fa": "cloud",
+      "text": "Experiencia contrastada en AWS, Google Cloud, Azure, Cloudflare y Hetzner. Diseñamos estrategias multi-cloud que optimizan costes y maximizan la flexibilidad y resiliencia de tu infraestructura."
+    },
+    {
+      "title": "GitOps & IaC",
+      "fa": "code-branch",
+      "text": "Automatización completa mediante Terraform, Helm, ArgoCD y FluxCD. Todos nuestros despliegues están basados en código versionado, garantizando reproducibilidad, trazabilidad y un flujo de trabajo GitOps maduro."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "title": "Fricolab - Arquitectos de nubes",
+  "title": "Fricolab - Expertos en Kubernetes y Cloud Native",
   "short": "Fricolab.",
-  "claim": "Somos arquitectos de nubes.",
+  "claim": "Tu partner en Cloud Native y Observabilidad.",
   "url": "https://fricolab.com/",
-  "description": "Mejoramos la calidad de tus servicios adoptando estrategias, herramientas y prácticas de desarrollo de software orientadas a la nube.",
+  "description": "Especialistas en Kubernetes, Grafana y arquitecturas multi-cloud. Diseñamos e implementamos soluciones cloud native robustas y observables en AWS, GCP, Azure, Cloudflare y Hetzner.",
   "feed": {
     "subtitle": "",
     "filename": "feed.xml",

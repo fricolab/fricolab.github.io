@@ -32,30 +32,3 @@ layout: layouts/home.njk
 	</div>
 </section>
 {% endfor -%}
-
-
-<section class="wrapper style1 align-center" id="projects">
-	<div class="inner">
-		<h2>Algunos de nuestros proyectos</h2>
-		<h4>Hemos trabajado con los <b>líderes de diferentes sectores</b> como educacion, banca, deporte, ONGs, salud o energía y también con diferentes administraciones públicas, ayudando a desarrollar <b>soluciones de arquitectura de software, big data y administración de infraestructuras digitales</b>.</h4>
-	</div>
-
-		
-		<div class="gallery style1 medium">		
-			{%- for project in collections.project %}
-			<article>
-				<a href="{{ project.data.permalink }}" class="image">
-					<img alt="icono descriptivo" src="images/gallery/fulls/{{ project.data.image }}" alt="" />
-				</a>
-				<div class="caption invert">
-					<h5>{{ project.data.title }}</h5>
-					<h5>{{ project.data.description }}</5>
-					<ul class="actions fixed">
-						<li><span class="button small">Más</span></li>
-					</ul>
-				</div>
-			</article>
-			{% endfor -%}
-		</div>
-
-</section>

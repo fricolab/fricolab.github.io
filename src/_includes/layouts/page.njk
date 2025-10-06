@@ -4,35 +4,59 @@ layout: layouts/base.njk
 
 <body class="is-preload">
 
-
+  <!-- Page Wrapper -->
   <section class="wrapper style1">
-  
     <div class="inner">
-      <div class="index align-left">
+
+      <!-- Header Section -->
+      <header class="major">
         <h1>{{ title }}</h1>
-        <section>
-          <header>
-          	<ul class="actions">
-							<li><a href="/" class="button primary small">VOLVER</a></li>
-						</ul>
-          </header>
-          <div class="content">
-            {% if tags=="project" %}  
-            <header>
-              <p>{{ description | safe }}</p>
-            </header>
+        {% if tags=="project" and description %}
+          <p class="lead">{{ description | safe }}</p>
+        {% endif %}
+      </header>
+
+      <!-- Navigation -->
+      <ul class="actions">
+        <li><a href="/" class="button primary">← Volver al inicio</a></li>
+      </ul>
+
+      <!-- Main Content with Columns -->
+      <div class="row gtr-150">
+
+        <!-- Sidebar Column -->
+        <div class="col-4 col-12-medium">
+          <section class="box special">
+            {% if tags=="project" %}
+              <span class="image">
+                <img alt="Imagen del proyecto {{ title }}" src="{{ '/images/gallery/fulls/' + image | url }}" style="width: 100%; height: auto;" />
+              </span>
+              <div class="content">
+                <h3>Información del Proyecto</h3>
+                <p>Proyecto de cloud computing e infraestructura moderna.</p>
+              </div>
             {% endif %}
-            <span class="image right">
-              {% if tags=="project" %}
-              <img alt="icono descriptivo" src="{{ '/images/gallery/thumbs/' + image | url }}" />
-              {% endif %}
-              {% if tags=="spotlight" %}
-              <img alt="imagen descriptiva" src="{{ '/images/' + image + '.png' | url }}" />
-              {% endif %}
-            </span>
-            {{ content | safe }}
-          </div>
-        </section>
+            {% if tags=="spotlight" %}
+              <span class="image">
+                <img alt="Imagen de {{ title }}" src="{{ '/images/' + image + '.png' | url }}" style="width: 100%; height: auto;" />
+              </span>
+            {% endif %}
+          </section>
+        </div>
+
+        <!-- Main Content Column -->
+        <div class="col-8 col-12-medium">
+          <section class="box">
+            <div class="content">
+              {{ content | safe }}
+            </div>
+          </section>
+        </div>
+
       </div>
+      <!-- End Row -->
+
     </div>
   </section>
+
+</body>
