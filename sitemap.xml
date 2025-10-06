@@ -13,21 +13,6 @@
       <loc>https://fricolab.com/</loc>
     </url>
     <url>
-      <loc>https://fricolab.com/autoescalado-kubernetes.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/big-data.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/gobierno-cloud.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/gitops-entrega-continua.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/microservicios.html</loc>
-    </url>
-    <url>
       <loc>https://fricolab.com/kubernetes-cloud-native.html</loc>
     </url>
     <url>
@@ -38,14 +23,5 @@
     </url>
     <url>
       <loc>https://fricolab.com/observabilidad-grafana.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/wordpress-kubernetes-enterprise.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/grafana-observability-stack.html</loc>
-    </url>
-    <url>
-      <loc>https://fricolab.com/multi-cloud-terraform.html</loc>
     </url>
 </urlset>
