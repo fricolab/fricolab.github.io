@@ -1,80 +1,35 @@
----
-title: Fricolab - Arquitectos de Nubes
----
-
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>{{ title or metadata.title }}</title>
-		{% if noindex %}
-  		<meta name="robots" content="noindex, nofollow">
-  		{% endif %}
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="{{ metadata.url }}" />
-		<meta property="og:title" content="{{ metadata.title }}" />
-		<meta property="og:description" content="{{ metadata.description }}" />
-		<meta property="og:image" content="{{ metadata.url }}images/logo_alt.png" />
-		<meta name="google-site-verification" content="Mw_RsimrQbPH6AqapBVpWlJxCpxeVlVS3ti8HRrIPds" />
-		<meta name="description" content="{{ metadata.description }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if title %}{{ title }} - {% endif %}Fricolab - Transformación Cloud</title>
+    <meta name="description" content="{{ description or 'Especialistas en Kubernetes, Cloud Native y Observabilidad. Reducimos costes cloud hasta 60%.' }}" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    {{ content | safe }}
 
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+      <div class="container">
+        <div class="cookie-banner-content">
+          <div class="cookie-banner-text">
+            <h3><i class="fas fa-cookie-bite"></i> Uso de Cookies</h3>
+            <p>Utilizamos cookies propias y de terceros (Google Analytics) para analizar el uso del sitio web y mejorar nuestros servicios. Puede obtener más información en nuestra <a href="/cookies.html">Política de Cookies</a>.</p>
+          </div>
+          <div class="cookie-banner-actions">
+            <button class="btn btn-cookie-accept" id="acceptCookies">Aceptar todas</button>
+            <button class="btn btn-cookie-reject" id="rejectCookies">Solo esenciales</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			gtag('config', 'G-8YWHYQD5B4');
-		</script>
-
-		<link rel="preload" as="style" href={{ '/webfonts/fontawesome-all.min.css' | url }} onload="this.rel='stylesheet'">
-		<link rel="preload" href={{ '/webfonts/fa-regular-400.woff2' | url }} as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href={{ '/webfonts/fa-brands-400.woff2' | url }} as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href={{ '/webfonts/fa-solid-900.woff2' | url }} as="font" type="font/woff2" crossorigin>
-
-		<link rel="stylesheet" type="text/css" href="{{ '/assets/main.css' | url }}?{{ cacheBust.mainCss }}" />
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YWHYQD5B4"></script>
-	</head>
-
-	{{ content | safe }}
-
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<ul class="icons">
-								<li><a alt="Twitter link" href="https://twitter.com/FricolaB" ><span role="none" class="icon brands style2 fa-twitter"></span></a></li>
-								<!-- <li><a alt="Linkedin link" href="https://www.linkedin.com/company/b_cultura" ><span class="icon brands style2 fa-linkedin-in"></span></a></li> -->
-								<li><a alt="mail link" href="mailto:info@fricolab.com" ><span role="none" class="icon style2 fa-envelope"></span></a></li>
-							</ul>
-							<p>&copy; Fricolab. Made with &hearts; and Open Source. Aplicación Web: <a href="https://www.11ty.dev/">11ty</a>. Plantilla HTML: <a href="https://html5up.net">HTML5 UP</a>.</p>
-							<p><a href="/aviso-legal.html">Aviso Legal</a></p>
-							<div class=image>
-								<img src="images/kit-digital.png" width="100%" height=auto alt="Logos kit digital">
-								<center>
-									<img src="images/epel.png" width="25%" height=auto alt="Logo EPEL Diputacion">
-								</center>
-							</div>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="{{ 'assets/js/jquery.min.js' | url }}"></script>
-			<script src="{{ 'assets/js/jquery.scrollex.min.js' | url }}"></script>
-			<script src="{{ 'assets/js/jquery.scrolly.min.js' | url }}"></script>
-			<script src="{{ 'assets/js/browser.min.js'| url }}"></script>
-			<script src="{{ 'assets/js/breakpoints.min.js' | url }}"></script>
-			<script src="{{ 'assets/js/util.js' | url }}"></script>
-			<script src="{{ 'assets/js/main.js' | url}}"></script>
-			<script src="{{ 'assets/main.js?' | url }}{{ cacheBust.mainCss }}"></script>
-			<!-- Start of HubSpot Embed Code -->
-			<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/140395993.js"></script>
-			<!-- End of HubSpot Embed Code -->
-			</script>
-	</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
-

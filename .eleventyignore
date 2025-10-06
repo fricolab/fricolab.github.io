@@ -1,0 +1,15 @@
+node_modules/
+.git/
+.gitignore
+.vscode/
+.idea/
+_.log
+.env
+.env._
+README.md
+package.json
+package-lock.json
+webpack.config\*.js
+.eleventy.js
+SEO-EVALUATION.md
+new-website/

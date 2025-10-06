@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{% if title %}{{ title }} - {% endif %}Fricolab</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="/" class="logo">
+            <img src="/images/logo_alt.png" alt="Fricolab" class="logo-img" />
+          </a>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="/#servicios">Servicios</a></li>
+            <li><a href="/#resultados">Resultados</a></li>
+            <li><a href="/#proceso">Proceso</a></li>
+            <li><a href="/#contacto" class="nav-cta">Agendar Consulta</a></li>
+          </ul>
+          <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <main class="legal-page">
+      <div class="container">
+        <div class="legal-content">
+          <h1>{{ title }}</h1>
+          {{ content | safe }}
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>FRICOLAB</h4>
+            <p>Expertos en transformación cloud y observabilidad para empresas que buscan excelencia operacional.</p>
+          </div>
+          <div class="footer-section">
+            <h5>Servicios</h5>
+            <ul>
+              <li><a href="/#servicios">Kubernetes & Cloud Native</a></li>
+              <li><a href="/#servicios">Observabilidad</a></li>
+              <li><a href="/#servicios">GitOps & IaC</a></li>
+              <li><a href="/#servicios">Multi-Cloud</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h5>Empresa</h5>
+            <ul>
+              <li><a href="/#proceso">Metodología</a></li>
+              <li><a href="/#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h5>Contacto</h5>
+            <ul>
+              <li>info@fricolab.com</li>
+              <li>Sada, A Coruña</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Fricolab. Todos los derechos reservados.</p>
+          <div class="footer-links">
+            <a href="/aviso-legal.html">Aviso Legal</a>
+            <a href="/cookies.html">Política de Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+      <div class="container">
+        <div class="cookie-banner-content">
+          <div class="cookie-banner-text">
+            <h3><i class="fas fa-cookie-bite"></i> Uso de Cookies</h3>
+            <p>Utilizamos cookies propias y de terceros (Google Analytics) para analizar el uso del sitio web y mejorar nuestros servicios. Puede obtener más información en nuestra <a href="/cookies.html">Política de Cookies</a>.</p>
+          </div>
+          <div class="cookie-banner-actions">
+            <button class="btn btn-cookie-accept" id="acceptCookies">Aceptar todas</button>
+            <button class="btn btn-cookie-reject" id="rejectCookies">Solo esenciales</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

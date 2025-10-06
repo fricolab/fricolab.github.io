@@ -1,9 +1,7 @@
 ---
-layout: layouts/page.njk
+layout: layouts/legal.njk
 title: Aviso Legal
 permalink: /aviso-legal.html
-noindex: true
-sitemapExclude: true
 ---
 
 **1.DATOS IDENTIFICATIVOS:**

@@ -192,8 +192,16 @@ function animateValue(element, start, end, duration, suffix = "") {
       const numEnd = parseInt(end);
       element.textContent = Math.floor(progress * numEnd) + "%";
     } else if (typeof end === "string" && end.includes("K")) {
-      const numEnd = parseInt(end);
-      element.textContent = "€" + Math.floor(progress * numEnd) + "K+";
+      // Extract number from string like "€50K+" or "50K"
+      const match = end.match(/(\d+)/);
+      if (match) {
+        const numEnd = parseInt(match[1]);
+        const prefix = end.includes("€") ? "€" : "";
+        const postfix = end.includes("+") ? "K+" : "K";
+        element.textContent = prefix + Math.floor(progress * numEnd) + postfix;
+      } else {
+        element.textContent = end;
+      }
     } else {
       element.textContent = end;
     }
@@ -256,3 +264,159 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// ============================================
+// COOKIE CONSENT MANAGEMENT
+// ============================================
+
+const COOKIE_NAME = "fricolab_cookie_consent";
+const COOKIE_EXPIRY_DAYS = 365;
+
+// Cookie utility functions
+const CookieManager = {
+  setCookie: function (name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    const expires = "expires=" + date.toUTCString();
+    document.cookie =
+      name + "=" + value + ";" + expires + ";path=/;SameSite=Lax";
+  },
+
+  getCookie: function (name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(";");
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === " ") c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  },
+
+  deleteCookie: function (name) {
+    document.cookie =
+      name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  },
+};
+
+// Google Analytics initialization
+function initGoogleAnalytics() {
+  // Replace 'G-XXXXXXXXXX' with your actual Google Analytics 4 Measurement ID
+  const GA_MEASUREMENT_ID = "G-8YWHYQD5B4";
+
+  // Load Google Analytics script
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  document.head.appendChild(script);
+
+  // Initialize gtag
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  window.gtag = gtag;
+
+  gtag("js", new Date());
+  gtag("config", GA_MEASUREMENT_ID, {
+    anonymize_ip: true, // Anonymize IP addresses for GDPR compliance
+    cookie_flags: "SameSite=Lax;Secure",
+  });
+
+  console.log("Google Analytics initialized");
+}
+
+// Remove Google Analytics
+function removeGoogleAnalytics() {
+  // Remove GA cookies
+  const gaCookies = ["_ga", "_gat", "_gid"];
+  gaCookies.forEach((cookie) => {
+    CookieManager.deleteCookie(cookie);
+    // Also try to delete with domain
+    document.cookie = `${cookie}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${window.location.hostname}`;
+    document.cookie = `${cookie}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.${window.location.hostname}`;
+  });
+
+  // Remove GA scripts
+  const gaScripts = document.querySelectorAll(
+    'script[src*="googletagmanager"]'
+  );
+  gaScripts.forEach((script) => script.remove());
+
+  console.log("Google Analytics removed");
+}
+
+// Show cookie banner
+function showCookieBanner() {
+  const banner = document.getElementById("cookieBanner");
+  if (banner) {
+    // Small delay for smoother animation
+    setTimeout(() => {
+      banner.classList.add("show");
+    }, 500);
+  }
+}
+
+// Hide cookie banner
+function hideCookieBanner() {
+  const banner = document.getElementById("cookieBanner");
+  if (banner) {
+    banner.classList.remove("show");
+  }
+}
+
+// Handle cookie acceptance
+function acceptAllCookies() {
+  CookieManager.setCookie(COOKIE_NAME, "accepted", COOKIE_EXPIRY_DAYS);
+  initGoogleAnalytics();
+  hideCookieBanner();
+  console.log("All cookies accepted");
+}
+
+// Handle cookie rejection (only essential)
+function rejectNonEssentialCookies() {
+  CookieManager.setCookie(COOKIE_NAME, "rejected", COOKIE_EXPIRY_DAYS);
+  removeGoogleAnalytics();
+  hideCookieBanner();
+  console.log("Non-essential cookies rejected");
+}
+
+// Check cookie consent status on page load
+function checkCookieConsent() {
+  const consent = CookieManager.getCookie(COOKIE_NAME);
+
+  if (consent === "accepted") {
+    // User has accepted cookies, initialize analytics
+    initGoogleAnalytics();
+  } else if (consent === "rejected") {
+    // User has rejected, ensure no analytics
+    removeGoogleAnalytics();
+  } else {
+    // No consent recorded, show banner
+    showCookieBanner();
+  }
+}
+
+// Initialize cookie consent management
+document.addEventListener("DOMContentLoaded", function () {
+  checkCookieConsent();
+
+  // Accept button
+  const acceptBtn = document.getElementById("acceptCookies");
+  if (acceptBtn) {
+    acceptBtn.addEventListener("click", acceptAllCookies);
+  }
+
+  // Reject button
+  const rejectBtn = document.getElementById("rejectCookies");
+  if (rejectBtn) {
+    rejectBtn.addEventListener("click", rejectNonEssentialCookies);
+  }
+});
+
+// Export for potential use in other scripts
+window.CookieConsent = {
+  accept: acceptAllCookies,
+  reject: rejectNonEssentialCookies,
+  check: checkCookieConsent,
+};
